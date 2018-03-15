@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Suggestions</title>
+    <description>Suggestions</description>
+    <pubDate>Thu, 15 Mar 2018 13:37:04 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Mar 2018 13:37:04 +0000</lastBuildDate>
+    <generator>Suggestions</generator>
+    <link>https://timetravelinstitute.com/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://timetravelinstitute.com/forums/suggestions.205/index.rss"/>
+    <item>
+      <title>phone for accounts verify logs ins+text messages</title>
+      <pubDate>Tue, 16 Jan 2018 20:08:01 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/phone-for-accounts-verify-logs-ins-text-messages.24461/</link>
+      <guid>https://timetravelinstitute.com/threads/phone-for-accounts-verify-logs-ins-text-messages.24461/</guid>
+      <author>invalid@example.com (cupcakeman)</author>
+      <dc:creator>cupcakeman</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">hello could you possibly update webiste so that it could have phone logins and text allerts so that when some one does hack your account you know where and when <br />
+many thanks cupcake</div>]]></content:encoded>
+      <slash:comments>5</slash:comments>
+    </item>
+    <item>
+      <title>Create a Dark style - TTI</title>
+      <pubDate>Mon, 15 Jan 2018 03:40:19 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/create-a-dark-style-tti.24448/</link>
+      <guid>https://timetravelinstitute.com/threads/create-a-dark-style-tti.24448/</guid>
+      <author>invalid@example.com (Samet Chan)</author>
+      <dc:creator>Samet Chan</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">It's better in my eyes and favorite so.<br />
+<br />
+1. Create a style then dark style - TTI<br />
+2. Go to template &gt; EXTRA.css<br />
+3. Add code .CSS<br />
+
+	
+	
+
+
+<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--code">
+	<div class="bbCodeBlock-title">
+		Code:
+	</div>
+	<div class="bbCodeBlock-content" dir="ltr">
+		<pre class="bbCodeCode" dir="ltr" data-xf-init="code-block" data-lang=""><code>body {
+    color: #cecece;
+    background-color: #1e1e1e !important;
+}
+.p-body {
+    background: #1e1e1e !important;
+}
+.p-header {
+    background: #1e1e1e !important;
+}
+.p-nav {
+    background: #1e1e1e !important;
+}
+.p-sectionLinks {
+    background: #828282;
+    border-bottom: 1px solid black;
+}
+.p-nav-list .p-navEl.is-selected {
+    background: #828282;
+}
+/*...</code></pre>
+	</div>
+</div><a href="https://timetravelinstitute.com/threads/create-a-dark-style-tti.24448/" class="link link--internal">Create a Dark style - TTI</a></div>]]></content:encoded>
+      <slash:comments>5</slash:comments>
+    </item>
+    <item>
+      <title>RSS Feed</title>
+      <pubDate>Wed, 10 Jan 2018 23:47:57 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/rss-feed.22635/</link>
+      <guid>https://timetravelinstitute.com/threads/rss-feed.22635/</guid>
+      <author>invalid@example.com (UTSA210)</author>
+      <dc:creator>UTSA210</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Hello Site Support,<br />
+<br />
+Is it possible to have a RSS style feed to and back on forum posts in Curious Cosmos on the TTI website.<br />
+<br />
+The rationale is TTI should be a site for learning, peer review, and maybe one day an accredited institution. <br />
+<br />
+I wonder what would happen if you modeled the website like <a href="http://www.kaplanuniversity.edu/" target="_blank" class="link link--external" rel="nofollow noopener">Kaplan University | Online College Courses – Campus and Online University</a><br />
+<br />
+Thank you for your time.<br />
+<br />
+God bless.</div>]]></content:encoded>
+      <slash:comments>3</slash:comments>
+    </item>
+    <item>
+      <title>Unmoderated forum?</title>
+      <pubDate>Mon, 08 Jan 2018 22:33:51 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/unmoderated-forum.24157/</link>
+      <guid>https://timetravelinstitute.com/threads/unmoderated-forum.24157/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Given the expanded foundation we're launching in January, would you guys be interested in a &quot;Lunatic Fringe&quot; sort of forum where moderation doesn't take place?<br />
+<br />
+Current Events and Politics forums need to be kept up with, stay on topic and adhere to all of our rules... But it'd be interesting to see the passionate debates and more extreme viewpoints that otherwise don't belong in &quot;civilized&quot; discussion.<br />
+<br />
+This forum, while not moderated, would still need to adhere to a FEW rules:<br />
+<br />
+*Nothing...<br />
+<br />
+<a href="https://timetravelinstitute.com/threads/unmoderated-forum.24157/" class="link link--internal">Unmoderated forum?</a></div>]]></content:encoded>
+      <slash:comments>21</slash:comments>
+    </item>
+    <item>
+      <title>Merry Christmas</title>
+      <pubDate>Fri, 30 Dec 2016 02:57:41 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/merry-christmas.22547/</link>
+      <guid>https://timetravelinstitute.com/threads/merry-christmas.22547/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Merry Christmas everyone! Looking forward to growing in 2017 in a major way! [emoji268] [emoji268] [emoji268] <br />
+<br />
+<span style="font-size: 10px">Sent using the <a href="http://r.tapatalk.com/byo?rid=89578" target="_blank" class="link link--external" rel="noopener">TTI Forums mobile app</a></span></div>]]></content:encoded>
+      <slash:comments>2</slash:comments>
+    </item>
+    <item>
+      <title>Quick note about the domain</title>
+      <pubDate>Thu, 29 Dec 2016 21:58:18 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/quick-note-about-the-domain.22554/</link>
+      <guid>https://timetravelinstitute.com/threads/quick-note-about-the-domain.22554/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">I had some time this afternoon to go ahead and begin the transition to the new Curious Cosmos domain. Couple things will be a little odd from now through the weekend, but we should be high and tight by the 1st <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" /><br />
+<br />
+Drop me a message if you're having issues though and I'll do my best to help.</div>]]></content:encoded>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>The TTI Shakeup - Details</title>
+      <pubDate>Wed, 28 Dec 2016 14:08:07 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/the-tti-shakeup-details.22514/</link>
+      <guid>https://timetravelinstitute.com/threads/the-tti-shakeup-details.22514/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">As you know, I've been struggling with my interest in TTI. We've bounced around to some different platforms, tried adding or removing features, experimented with sister-sites... The whole bit. None of it worked, and our community has suffered for it. I'm not pleased with that being the end result, but it is what it is, and it's time to move forward.<br />
+<br />
+In previous posts, I've said that I believe the future of TTI lies beyond the forums. That I need to pursue the site *I* want to be part of.<br />
+<br />
+I...<br />
+<br />
+<a href="https://timetravelinstitute.com/threads/the-tti-shakeup-details.22514/" class="link link--internal">The TTI Shakeup - Details</a></div>]]></content:encoded>
+      <slash:comments>29</slash:comments>
+    </item>
+    <item>
+      <title>Buckazoids as a cryptocurrency</title>
+      <pubDate>Thu, 22 Dec 2016 19:55:00 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/buckazoids-as-a-cryptocurrency.24156/</link>
+      <guid>https://timetravelinstitute.com/threads/buckazoids-as-a-cryptocurrency.24156/</guid>
+      <author>invalid@example.com (UTSA210)</author>
+      <dc:creator>UTSA210</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Quick question,<br />
+<br />
+May &quot;Buckazoids&quot; be made into a cryptocurrency?</div>]]></content:encoded>
+      <slash:comments>5</slash:comments>
+    </item>
+    <item>
+      <title>Curious Cosmos now uses SSL</title>
+      <pubDate>Wed, 21 Dec 2016 00:13:30 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/curious-cosmos-now-uses-ssl.22488/</link>
+      <guid>https://timetravelinstitute.com/threads/curious-cosmos-now-uses-ssl.22488/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">We've had this for a while on the main page (<a href="https://timetravel.institute" target="_blank" class="link link--external" rel="noopener">Time Travel Institute | Tempus edax rerum</a>), but SSL is now enabled on the forum domain as well.<br />
+<br />
+This means two things:<br />
+<br />
+<ol>
+<li>The communication between you and us is encrypted. Anything you do on the website can be seen only by you and the site, so nobody can eavesdrop on anything you transmit.<br />
+<br />
+</li>
+<li>It verifies the identity of the site you've connected to. When you connect to TTI using a non-secured...</li>
+</ol><br />
+<a href="https://timetravelinstitute.com/threads/curious-cosmos-now-uses-ssl.22488/" class="link link--internal">Curious Cosmos now uses SSL</a></div>]]></content:encoded>
+      <slash:comments>1</slash:comments>
+    </item>
+    <item>
+      <title>Messages Count</title>
+      <pubDate>Sat, 17 Dec 2016 19:30:47 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/messages-count.22512/</link>
+      <guid>https://timetravelinstitute.com/threads/messages-count.22512/</guid>
+      <author>invalid@example.com (Einstein)</author>
+      <dc:creator>Einstein</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">I happen to notice my messages count is decreasing. It was 3002 a few days ago. I also noticed a few other members are also losing total messages counts as well. Is this just a temporary glitch? Are all members being affected?</div>]]></content:encoded>
+      <slash:comments>1</slash:comments>
+    </item>
+    <item>
+      <title>Hi there, Im Diego from TEC website</title>
+      <pubDate>Mon, 12 Dec 2016 04:46:51 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/hi-there-im-diego-from-tec-website.22480/</link>
+      <guid>https://timetravelinstitute.com/threads/hi-there-im-diego-from-tec-website.22480/</guid>
+      <author>invalid@example.com (Diego_TEC)</author>
+      <dc:creator>Diego_TEC</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Hi there folks, Im Diego from Tec website, that one that was online between 1999-2003. Ive been out of this thing, but looking around forums this almost two decades. Im looking forward to start a new repository and upload all the devices schematics.<br />
+If any old tec member is still around on this board, leave a message on this thread.</div>]]></content:encoded>
+      <slash:comments>3</slash:comments>
+    </item>
+    <item>
+      <title>What is a trophy point?</title>
+      <pubDate>Wed, 07 Dec 2016 03:29:37 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/what-is-a-trophy-point.22459/</link>
+      <guid>https://timetravelinstitute.com/threads/what-is-a-trophy-point.22459/</guid>
+      <author>invalid@example.com (paladius)</author>
+      <dc:creator>paladius</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">What is a trophy point?</div>]]></content:encoded>
+      <slash:comments>1</slash:comments>
+    </item>
+    <item>
+      <title>Please add commentary to links you post</title>
+      <pubDate>Fri, 02 Sep 2016 02:47:07 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/please-add-commentary-to-links-you-post.15858/</link>
+      <guid>https://timetravelinstitute.com/threads/please-add-commentary-to-links-you-post.15858/</guid>
+      <author>invalid@example.com (PaulaJedi)</author>
+      <dc:creator>PaulaJedi</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Hey guys.   Links are ok here, but please type up text or a summary with the link so that it can foster further thought.  After all, Time Travel Institute is a discussion forum.  We also appreciate your own perspective on the link that you post.  Posting links by themselves look like spam.  Thank you for understanding.</div>]]></content:encoded>
+      <slash:comments>3</slash:comments>
+    </item>
+    <item>
+      <title>A reminder to try and stay on-topic</title>
+      <pubDate>Fri, 12 Aug 2016 02:07:17 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/a-reminder-to-try-and-stay-on-topic.15961/</link>
+      <guid>https://timetravelinstitute.com/threads/a-reminder-to-try-and-stay-on-topic.15961/</guid>
+      <author>invalid@example.com (PaulaJedi)</author>
+      <dc:creator>PaulaJedi</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">We are trying to keep things neat and organized here at TTI, so we would be greatly appreciative if members could please pay attention to where they are posting.  Please make sure that you are not posting random thoughts all over the place and please choose a proper category.   If you are replying, either stay on topic or create a new post all together.  Random posts being placed anywhere and everywhere will most likely be deleted.  Thank you for understanding.  We do appreciate everyone's...<br />
+<br />
+<a href="https://timetravelinstitute.com/threads/a-reminder-to-try-and-stay-on-topic.15961/" class="link link--internal">A reminder to try and stay on-topic</a></div>]]></content:encoded>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>We made it!</title>
+      <pubDate>Thu, 02 Jun 2016 21:46:59 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/we-made-it.15877/</link>
+      <guid>https://timetravelinstitute.com/threads/we-made-it.15877/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Looks like we made it out of the conversion safe and sound!<br />
+<br />
+I'll be adjusting things with the software and setting up a few store products and whatnot; please feel free to look around and get some fodder for the email blast.</div>]]></content:encoded>
+      <slash:comments>5</slash:comments>
+    </item>
+    <item>
+      <title>Continuum</title>
+      <pubDate>Fri, 27 May 2016 20:23:21 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/continuum.15878/</link>
+      <guid>https://timetravelinstitute.com/threads/continuum.15878/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">So, something I've wanted to do for ages is run some kind of play-by-post RPG.<br />
+<br />
+<br />
+	There is a table-top RPG called Continuum out there which sounds ridiculously fun. Here's some of the details:<br />
+<br />
+
+
+<div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			Unlike other time travel games (and fiction), which usually depict time travelers as either lone explorers or as an all-powerful &quot;time police&quot;, Continuum assumes that time travelers (spanners) would eventually evolve their own society, with its own laws, rules,slang, groups, art...
+		</div>
+		<div class="bbCodeBlock-expandLink"><a>Click to expand...</a></div>
+	</div>
+</div><a href="https://timetravelinstitute.com/threads/continuum.15878/" class="link link--internal">Continuum</a></div>]]></content:encoded>
+      <slash:comments>2</slash:comments>
+    </item>
+    <item>
+      <title>SSL Errors</title>
+      <pubDate>Tue, 26 Apr 2016 01:04:02 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/ssl-errors.15843/</link>
+      <guid>https://timetravelinstitute.com/threads/ssl-errors.15843/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Hey guys,<br />
+<br />
+<br />
+Most of you have probably noticed the site displaying an SSL error today - Something like this:<br />
+<br />
+<br />
+
+	
+		
+	
+	
+		
+		
+	
+
+
+	<div class="lbContainer lbContainer--inline"
+		data-xf-init="lightbox"
+		data-lb-single-image="1"
+		data-lb-container-zoom="1"
+		data-lb-trigger=".js-lbImage-attachment634"
+		data-lb-id="attachment634">
+		
+			<div class="lbContainer-zoomer js-lbImage-attachment634" data-src="https://timetravelinstitute.com/attachments/f79497cef5bbdb1b7f7ca5e9142428e657e0d4bb-png.634/" aria-label="Zoom"></div>
+		
+		<img src="https://timetravelinstitute.com/attachments/f79497cef5bbdb1b7f7ca5e9142428e657e0d4bb-png.634/" data-url="" class="bbImage" data-zoom-target="1" alt="f79497cef5bbdb1b7f7ca5e9142428e657e0d4bb.png" />
+	</div>
+
+	
+<br />
+<br />
+I asked our host to set up an SSL certificate on the site last night so that we could enjoy some more secure browsing, but they botched the install. The site has NOT been hacked and nobody is stealing information, it's just the SSL certificate not being installed properly.<br />
+<br />
+<br />
+As of now, I think I've fixed things to where attempts to visit the broken SSL...<br />
+<br />
+<a href="https://timetravelinstitute.com/threads/ssl-errors.15843/" class="link link--internal">SSL Errors</a></div>]]></content:encoded>
+      <slash:comments>1</slash:comments>
+    </item>
+    <item>
+      <title>Where are you all from?</title>
+      <pubDate>Mon, 18 Apr 2016 17:14:02 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/where-are-you-all-from.15716/</link>
+      <guid>https://timetravelinstitute.com/threads/where-are-you-all-from.15716/</guid>
+      <author>invalid@example.com (Jennifer Allan)</author>
+      <dc:creator>Jennifer Allan</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Hi, I'm new to the forum having been recommended to check it out by a friend as I write time slip fiction (first novel out, working on sequel) I'm interested to know where you are all from and what sparked your interest in time travel.</div>]]></content:encoded>
+      <slash:comments>9</slash:comments>
+    </item>
+    <item>
+      <title>Site Cleanup and Rearrangement</title>
+      <pubDate>Sat, 02 Apr 2016 18:13:42 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/site-cleanup-and-rearrangement.7731/</link>
+      <guid>https://timetravelinstitute.com/threads/site-cleanup-and-rearrangement.7731/</guid>
+      <author>invalid@example.com (PaulaJedi)</author>
+      <dc:creator>PaulaJedi</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Hey Everybody!<br />
+<br />
+Just an FYI.  We are currently cleaning up the site, moving posts to proper threads, etc.  We will also do things like remove all caps from titles and other things that are necessary to keep TTI looking sharp.  We'll keep you posted on our progress!</div>]]></content:encoded>
+      <slash:comments>6</slash:comments>
+    </item>
+    <item>
+      <title>3/29/2016 Server Errors</title>
+      <pubDate>Wed, 30 Mar 2016 03:16:21 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/3-29-2016-server-errors.7754/</link>
+      <guid>https://timetravelinstitute.com/threads/3-29-2016-server-errors.7754/</guid>
+      <author>invalid@example.com (Cosmo)</author>
+      <dc:creator>Cosmo</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">Some of you may have seen &quot;Internal Error 500&quot; messages tonight; this should be cleared up now.<br />
+<br />
+We're new on this host, so I got them on the phone ready to start screaming, but it turns out it was part of a planned update that they sent an alert out for. We just got on this server though, so we weren't part of the email blast they sent and never got it. <br />
+<br />
+I swear I didn't break anything.</div>]]></content:encoded>
+      <slash:comments>4</slash:comments>
+    </item>
+  </channel>
+</rss>

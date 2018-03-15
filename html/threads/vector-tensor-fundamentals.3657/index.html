@@ -1,0 +1,6190 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+	
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html id="XF" lang="en-US" dir="LTR"
+	data-app="public"
+	data-template="thread_view"
+	data-container-key="node-244"
+	data-content-key="thread-3657"
+	data-logged-in="false"
+	data-cookie-prefix="xf_"
+	class="has-no-js template-thread_view  uix_page--fixed uix_alwaysStaffBar  uix_hasCrumbs uix_hasPageAction"
+	 data-run-jobs="">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+
+	<title>Vector &amp; Tensor Fundamentals | Time Travel Institute</title>
+
+	
+		
+		<meta name="description" content="Greetings!
+
+At the behest of Darby, a valued contributor to this forum, this thread is being started to help folks understand why vectors are a necessary..." />
+		<meta property="og:description" content="Greetings!
+
+At the behest of Darby, a valued contributor to this forum, this thread is being started to help folks understand why vectors are a necessary mathematical construct when it comes to physics (more specifically, the dynamics of motion of a body).  This should then lead to a natural..." />
+		<meta property="twitter:description" content="Greetings!
+
+At the behest of Darby, a valued contributor to this forum, this thread is being started to help folks understand why vectors are a necessary mathematical construct when it comes to..." />
+	
+	
+		<meta property="og:url" content="https://timetravelinstitute.com/threads/vector-tensor-fundamentals.3657/" />
+	
+		<link rel="canonical" href="index.html" />
+	
+		<link rel="next" href="page-2.html" />
+	
+
+	
+		
+	
+	
+	<meta property="og:site_name" content="Time Travel Institute" />
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:title" content="Vector &amp; Tensor Fundamentals" />
+		<meta property="twitter:title" content="Vector &amp; Tensor Fundamentals" />
+	
+
+
+	
+	
+	
+
+	
+
+	<script>
+	if (typeof (window.themehouse) !== 'object') {
+		window.themehouse = {};
+	}
+	if (typeof (window.themehouse.settings) !== 'object') {
+		window.themehouse.settings = {};
+	}
+	window.themehouse.settings = {
+		common: {
+			'20180112': {
+				init: false,
+			},
+		},
+		data: {
+			version: '2.0.1.2.1',
+			jsVersion: 'No JS Files',
+			templateVersion: '2.0.1.2_Release',
+			betaMode: 0,
+			theme: '',
+			url: 'https://timetravelinstitute.com/',
+			user: '0',
+		},
+		inputSync: {},
+		minimalSearch: {
+			breakpoint: "900",
+			dropdownBreakpoint: "900",
+		},
+		sidebar: {
+            enabled: '',
+			link: '/uix/toggle-sidebar.json',
+            state: '',
+		},
+        sidebarNav: {
+            enabled: '',
+			link: '/uix/toggle-sidebar-navigation.json',
+            state: '',
+		},
+		fab: {
+			enabled: 1,
+		},
+		checkRadius: {
+			enabled: 0,
+			selectors: '.p-footer-inner, .uix_extendedFooter, .p-nav, .p-sectionLinks, .p-staffBar, .p-header',
+		},
+		nodes: {
+			enabled: 0,
+		},
+        nodesCollapse: {
+            enabled: '',
+			link: '/uix/toggle-category.json',
+			state: '',
+        },
+		widthToggle: {
+			enabled: '',
+			link: '/uix/toggle-width.json',
+			state: 'fixed',
+		},
+	}
+
+	window.document.addEventListener('DOMContentLoaded', function() {
+		
+			try {
+			   window.themehouse.common['20180112'].init();
+			} catch(e) {
+			   console.log('Error caught', e);
+			}
+		
+
+
+		var jsVersionPrefix = 'No JS Files';
+		if (typeof(window.themehouse.settings.data.jsVersion) === 'string') {
+			var jsVersionSplit = window.themehouse.settings.data.jsVersion.split('_');
+			if (jsVersionSplit.length) {
+				jsVersionPrefix = jsVersionSplit[0];
+			}
+		}
+		var templateVersionPrefix = 'No JS Template Version';
+		if (typeof(window.themehouse.settings.data.templateVersion) === 'string') {
+			var templateVersionSplit = window.themehouse.settings.data.templateVersion.split('_');
+			if (templateVersionSplit.length) {
+				templateVersionPrefix = templateVersionSplit[0];
+			}
+		}
+		if (jsVersionPrefix !== templateVersionPrefix) {
+			var splitFileVersion = jsVersionPrefix.split('.');
+			var splitTemplateVersion = templateVersionPrefix.split('.');
+			console.log('version mismatch', jsVersionPrefix, templateVersionPrefix);
+		}
+
+	});
+</script>
+
+	
+	
+	
+
+	
+		
+		<link rel="preload" href="../../styles/fonts/fa/fontawesome-webfont-v=4.7.0.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+	
+
+	
+		
+	
+
+	<link rel="stylesheet" href="../../css.php-css=public-normalize.css,public-core.less,public-app.less,public-font_awesome.css,public-tactical.less,public-tactical_wow.less&amp;s=7&amp;l=1&amp;d=1520988010&amp;k=198e4cf2fc00b734d4b002985202adf008f0e44e.css" />
+
+	
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="../../css.php-css=public-bb_code.less,public-lightbox.less,public-message.less,public-share_controls.less,public-extra.less&amp;s=7&amp;l=1&amp;d=1520988010&amp;k=fc03664d6dc7564685768c92a6197f876523d8b5.css" />
+
+	
+		<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	
+		<script src="../../js/xf/preamble-compiled-_v=df26b8cf.js"></script>
+	
+
+
+	
+		<link rel="icon" type="image/png" href="../../styles/tactical/images/favicon.png" sizes="32x32" />
+	
+	
+	
+
+	
+
+	<style>.uix_headerContainer .p-navSticky.is-sticky {
+			top: 0px !important;
+		}
+		@media (max-width: 900px) {
+			.uix_headerContainer .p-navSticky.is-sticky {
+				top: 0px !important;
+			}
+		}
+
+		
+		
+			
+				
+			
+		
+
+		
+			.uix_stickyBodyElement:not(.offCanvasMenu) {
+				top: 120px !important;
+			}
+
+			@media (max-width: 900px) {
+				.uix_stickyBodyElement:not(.offCanvasMenu) {
+					top: 120px !important;
+				}
+			}
+
+			
+			
+				
+					
+					
+				
+			
+
+			@media(min-width: 0px) and (max-width: 900px) {
+				
+				.p-sectionLinks {
+					display: none;
+				}
+
+				.uix_stickyBodyElement:not(.offCanvasMenu) {
+					top: 80px !important;
+				}
+
+				@media (max-width: 900px) {
+					.uix_stickyBodyElement:not(.offCanvasMenu) {
+						top: 80px !important;
+					}
+				}
+			}
+		
+	</style>
+
+	
+</head>
+
+<body data-template="thread_view">
+<div id="jumpToTop"></div>
+
+
+
+<div class="uix_pageWrapper--fixed">
+	<div class="p-pageWrapper" id="top">
+
+		<div class="uix_headerContainer">
+			<div class="uix_headerContainer--stickyFix"></div>
+			
+	
+	
+		<div class="p-staffBar ">
+			<div class="pageContent">
+				
+					
+
+					
+						<div class="p-nav-opposite">
+							
+								
+	
+		
+			
+				<div class="p-navgroup p-account p-navgroup--guest">
+					
+						
+							
+	
+		
+		
+	
+		
+			<a href="../../login/index.html" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--logIn" data-xf-click="menu">
+				<i></i>
+				<span class="p-navgroup-linkText">Log in</span>
+			</a>
+			<div class="menu menu--structural menu--medium" data-menu="menu" aria-hidden="true" data-href="/login/"></div>
+		
+	
+	
+		
+			<a href="../../register/index.html" class="p-navgroup-link u-ripple p-navgroup-link--textual p-navgroup-link--register" rel="nofollow">
+				<i></i>
+				<span class="p-navgroup-linkText">Register</span>
+			</a>
+		
+	
+
+	
+
+						
+					
+				</div>
+			
+			
+				<div class="p-navgroup p-discovery">
+					
+						
+	
+		
+	<a href="../../whats-new/index.html"
+	   class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--whatsnew"
+	   title="What&#039;s new">
+		<i aria-hidden="true"></i>
+		<span class="p-navgroup-linkText">What's new</span>
+	</a>
+
+	
+
+						
+	
+
+					
+				</div>
+			
+			
+	
+
+		
+	
+
+							
+						</div>
+					
+
+				
+			</div>
+		</div>
+	
+
+
+
+			
+
+			
+				<header class="p-header" id="header">
+					<div class="p-header-inner">
+						
+				
+					<div class="p-header-content">
+						
+							
+								
+	
+	<div class="p-header-logo p-header-logo--image">
+		<a class="uix_logo" href="../../index.html">
+			
+				<img src="https://i.imgur.com/6FUi3fO.png"
+					 alt="Time Travel Institute"
+					 srcset="https://i.imgur.com/6FUi3fO.png 2x" />
+			
+		</a>
+		
+			<a class="uix_logoSmall" href="../../index.html">
+				<img src="https://i.imgur.com/6FUi3fO.png"
+					 alt="Time Travel Institute"
+				/>
+			</a>
+		
+	</div>
+
+
+							
+
+							
+						
+					</div>
+				
+			
+					</div>
+				</header>
+			
+
+			
+
+			
+				<div class="p-navSticky p-navSticky--all uix_stickyBar" data-top-offset-min="0" data-top-offset-max="0" data-top-offset-breakpoint="900px">
+					
+				<nav class="p-nav">
+					<div class="p-nav-inner">
+						
+							<a class="p-nav-menuTrigger" data-xf-click="off-canvas" data-menu=".js-headerOffCanvasMenu" role="button" tabindex="0">
+								<i aria-hidden="true"></i>
+								<span class="p-nav-menuText">Menu</span>
+							</a>
+							
+						
+
+						
+	
+	<div class="p-header-logo p-header-logo--image">
+		<a class="uix_logo" href="../../index.html">
+			
+				<img src="https://i.imgur.com/6FUi3fO.png"
+					 alt="Time Travel Institute"
+					 srcset="https://i.imgur.com/6FUi3fO.png 2x" />
+			
+		</a>
+		
+			<a class="uix_logoSmall" href="../../index.html">
+				<img src="https://i.imgur.com/6FUi3fO.png"
+					 alt="Time Travel Institute"
+				/>
+			</a>
+		
+	</div>
+
+
+
+						
+							
+							<div class="p-nav-scroller hScroller" data-xf-init="h-scroller">
+								<div class="hScroller-scroll">
+									<ul class="p-nav-list js-offCanvasNavSource">
+									
+										<li>
+											
+	<div class="p-navEl u-ripple " >
+		
+			
+				
+	
+	<a href="../../index.html"
+		class="p-navEl-link  "
+		
+		data-xf-key="1"
+		data-nav-id="home">Home</a>
+
+				
+			
+			
+			
+		
+		
+			
+		
+	</div>
+
+										</li>
+									
+										<li>
+											
+	<div class="p-navEl u-ripple is-selected" data-has-children="true">
+		
+			
+				
+	
+	<a href="../../index.html"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="forums">Forums</a>
+
+				
+					<a data-xf-key="2"
+					   data-xf-click="menu"
+					   data-menu-pos-ref="< .p-navEl"
+					   data-arrow-pos-ref="< .p-navEl"
+					   class="p-navEl-splitTrigger"
+					   role="button"
+					   tabindex="0"
+					   aria-label="Toggle expanded"
+					   aria-expanded="false"
+					   aria-haspopup="true">
+					</a>
+				
+			
+			
+				
+					<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+						<div class="menu-content">
+							<!--<h4 class="menu-header">Forums</h4>-->
+							
+								
+	
+	
+	<a href="../../whats-new/posts/706/index.html"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="newPosts">New posts</a>
+
+	
+
+							
+						</div>
+					</div>
+				
+			
+			
+		
+		
+			
+		
+	</div>
+
+										</li>
+									
+										<li>
+											
+	<div class="p-navEl u-ripple " data-has-children="true">
+		
+			
+				
+	
+	<a href="../../whats-new/index.html"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="whatsNew">What's new</a>
+
+				
+					<a data-xf-key="3"
+					   data-xf-click="menu"
+					   data-menu-pos-ref="< .p-navEl"
+					   data-arrow-pos-ref="< .p-navEl"
+					   class="p-navEl-splitTrigger"
+					   role="button"
+					   tabindex="0"
+					   aria-label="Toggle expanded"
+					   aria-expanded="false"
+					   aria-haspopup="true">
+					</a>
+				
+			
+			
+				
+					<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+						<div class="menu-content">
+							<!--<h4 class="menu-header">What's new</h4>-->
+							
+								
+	
+	
+	<a href="../../whats-new/posts/706/index.html"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="whatsNewPosts">New posts</a>
+
+	
+
+							
+								
+	
+	
+	<a href="../../whats-new/profile-posts/707/index.html"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="whatsNewProfilePosts">New profile posts</a>
+
+	
+
+							
+								
+	
+	
+	<a href="../../whats-new/latest-activity.html"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="latestActivity">Latest activity</a>
+
+	
+
+							
+						</div>
+					</div>
+				
+			
+			
+		
+		
+			
+		
+	</div>
+
+										</li>
+									
+										<li>
+											
+	<div class="p-navEl u-ripple " data-has-children="true">
+		
+			
+				
+	
+	<a href="../../members/index.html"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="members">Members</a>
+
+				
+					<a data-xf-key="4"
+					   data-xf-click="menu"
+					   data-menu-pos-ref="< .p-navEl"
+					   data-arrow-pos-ref="< .p-navEl"
+					   class="p-navEl-splitTrigger"
+					   role="button"
+					   tabindex="0"
+					   aria-label="Toggle expanded"
+					   aria-expanded="false"
+					   aria-haspopup="true">
+					</a>
+				
+			
+			
+				
+					<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+						<div class="menu-content">
+							<!--<h4 class="menu-header">Members</h4>-->
+							
+								
+	
+	
+	<a href="../../online/index.html"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="currentVisitors">Current visitors</a>
+
+	
+
+							
+								
+	
+	
+	<a href="../../whats-new/profile-posts/707/index.html"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="newProfilePosts">New profile posts</a>
+
+	
+
+							
+						</div>
+					</div>
+				
+			
+			
+		
+		
+			
+		
+	</div>
+
+										</li>
+									
+									</ul>
+								</div>
+							</div>
+							
+
+							
+								<div class="uix_activeNavTitle">
+									<span>
+										
+											Forums
+										
+									</span>
+								</div>
+							
+						
+
+							
+	
+
+
+							
+					</div>
+				</nav>
+			
+					
+	
+		<div class="p-sectionLinks">
+			<div class="pageContent">
+				
+					
+						<div class="p-sectionLinks--group">
+							
+								
+								
+									
+										
+									
+									<div class="p-sectionLinks-inner hScroller" data-xf-init="h-scroller">
+										<div class="hScroller-scroll">
+											<ul class="p-sectionLinks-list">
+											
+												<li>
+													
+	<div class="p-navEl u-ripple " >
+		
+			
+				
+	
+	<a href="../../whats-new/posts/706/index.html"
+		class="p-navEl-link  "
+		
+		data-xf-key="alt+1"
+		data-nav-id="newPosts">New posts</a>
+
+				
+			
+			
+			
+		
+		
+			
+		
+	</div>
+
+												</li>
+											
+											</ul>
+										</div>
+									</div>
+								
+							
+						</div>
+					
+					
+				
+			</div>
+		</div>
+	
+
+				</div>
+				
+
+			
+	
+
+			
+	
+
+			
+	
+
+
+		</div>
+
+		
+		<div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+			<div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+			<div class="offCanvasMenu-content">
+				
+				<div class="sidePanel sidePanel--nav sidePanel--visitor">
+	<div class="sidePanel__tabPanels">
+		
+		<div data-content="navigation" class="is-active sidePanel__tabPanel js-navigationTabPanel">
+			
+					<div class="offCanvasMenu-header">
+						Menu
+						<a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Close"></a>
+					</div>
+					
+					<div class="js-offCanvasNavTarget"></div>
+				
+		</div>
+		
+		
+		
+	</div>
+</div>
+
+				
+			</div>
+		</div>
+
+
+		<!-- <div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+			<div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+			<div class="offCanvasMenu-content">
+				<div class="offCanvasMenu-header">
+					Menu
+					<a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Close"></a>
+				</div>
+				
+				<div class="js-offCanvasNavTarget"></div>
+			</div>
+		</div> -->
+
+		<div class="p-body">
+
+			
+
+			<div class="p-body-inner">
+				
+				<!--XF:EXTRA_OUTPUT-->
+
+				
+	
+
+
+				
+	
+
+
+				
+
+				
+	
+
+
+				
+	<noscript><div class="blockMessage blockMessage--important blockMessage--iconic u-noJsOnly">JavaScript is disabled. For a better experience, please enable JavaScript in your browser before proceeding.</div></noscript>
+
+				
+	<!--[if lt IE 9]><div class="blockMessage blockMessage&#45;&#45;important blockMessage&#45;&#45;iconic">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/browser/" target="_blank">alternative browser</a>.</div><![endif]-->
+
+
+				<div class="uix_contentWrapper">
+
+					
+						
+
+						
+					
+
+					
+					
+	
+
+					
+	
+
+					
+	
+
+
+					<div class="p-body-main  ">
+						
+
+						
+	
+
+						<div class="p-body-content">
+							<div class="p-body-pageContent">
+								
+	
+
+								
+	
+		
+	
+	
+	
+    
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		<div class="breadcrumb ">
+			<div class="pageContent">
+				
+
+				<ul class="p-breadcrumbs "
+					itemscope itemtype="https://schema.org/BreadcrumbList">
+
+					
+					
+						
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="../../index.html" itemprop="item">
+			
+				<span itemprop="name">Forums</span>
+			
+		</a>
+	</li>
+
+					
+
+					
+					
+						
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="../../index.html#time-travel.284" itemprop="item">
+			
+				<span itemprop="name">Time Travel</span>
+			
+		</a>
+	</li>
+
+					
+						
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="../../forums/unsorted-threads.244/index.html" itemprop="item">
+			
+				<span itemprop="name">Unsorted Threads</span>
+			
+		</a>
+	</li>
+
+					
+				</ul>
+
+				
+
+				
+			</div>
+		</div>
+	
+
+	
+
+	
+
+								
+	
+		
+	
+		
+			<div class="uix_titlebar">
+				<div class="pageContent">
+					
+						
+							<div class="p-body-header">
+								
+									
+										<div class="p-title ">
+											
+												
+													<h1 class="p-title-value">Vector &amp; Tensor Fundamentals</h1>
+												
+											
+										</div>
+									
+									
+										<div class="p-description">
+	<ul class="listInline listInline--bullet">
+		<li>
+			<i class="fa fa-user" aria-hidden="true" title="Thread starter"></i>
+			<span class="u-srOnly">Thread starter</span>
+
+			<a href="../../members/rainmantime.584/index.html" class="username  u-concealed" dir="auto" data-user-id="584" data-xf-init="member-tooltip">RainmanTime</a>
+		</li>
+		<li>
+			<i class="fa fa-clock-o" aria-hidden="true" title="Start date"></i>
+			<span class="u-srOnly">Start date</span>
+
+			<a href="index.html" class="u-concealed"><time  class="u-dt" dir="auto" datetime="2005-12-01T01:38:29+0000" data-time="1133401109" data-date-string="Dec 1, 2005" data-time-string="1:38 AM" title="Dec 1, 2005 at 1:38 AM">Dec 1, 2005</time></a>
+		</li>
+		
+	</ul>
+</div>
+									
+								
+							</div>
+							
+								
+							
+						
+					
+				</div>
+			</div>
+		
+	
+
+	
+
+								
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+		
+	
+
+
+
+
+
+
+
+	
+		
+		
+	
+
+
+
+
+
+
+<div class="block block--messages" data-xf-init="" data-type="post" data-href="/inline-mod/">
+
+	
+	
+
+
+	<div class="block-outer"><div class="block-outer-main"><nav class="pageNavWrapper pageNavWrapper--mixed ">
+
+
+
+<div class="pageNav  ">
+	
+
+	<ul class="pageNav-main">
+		
+
+	
+		<li class="pageNav-page pageNav-page--current "><a href="index.html">1</a></li>
+	
+
+
+		
+
+		
+
+		
+
+		
+
+	
+		<li class="pageNav-page "><a href="page-2.html">2</a></li>
+	
+
+	</ul>
+
+	
+		<a href="page-2.html" class="pageNav-jump pageNav-jump--next">Next</a>
+	
+</div>
+
+<div class="pageNavSimple">
+	
+
+	<a class="pageNavSimple-el pageNavSimple-el--current"
+		data-xf-init="tooltip" title="Go to page"
+		data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">
+		1 of 2
+	</a>
+	
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/threads/vector-tensor-fundamentals.3657/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="1"  min="1" max="2" step="1" required="required" data-menu-autofocus="true" /></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+		<a href="page-2.html" class="pageNavSimple-el pageNavSimple-el--next">
+			Next <i aria-hidden="true"></i>
+		</a>
+		<a href="page-2.html"
+			class="pageNavSimple-el pageNavSimple-el--last"
+			data-xf-init="tooltip" title="Last">
+			<i aria-hidden="true"></i> <span class="u-srOnly">Last</span>
+		</a>
+	
+</div>
+
+</nav>
+
+
+
+</div></div>
+
+	<div class="block-outer js-threadStatusField"></div>
+
+	<div class="block-container lbContainer"
+		data-xf-init="lightbox select-to-quote"
+		data-message-selector=".js-post"
+		data-lb-id="thread-3657"
+		data-lb-universal="0">
+
+		<div class="block-body js-replyNewMessageContainer">
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="RainmanTime"
+		data-content="post-38817"
+		id="js-post-38817">
+
+		<span class="u-anchorTarget" id="post-38817"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/rainmantime.584/index.html" class="avatar avatar--s" data-user-id="584" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/584-1480571092.jpg" srcset="../../data/avatars/m/0/584-1480571092.jpg 2x" alt="RainmanTime" class="avatar-u584-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/rainmantime.584/index.html" class="username " dir="auto" data-user-id="584" data-xf-init="member-tooltip" itemprop="name">RainmanTime</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">70,000 Tachyons</h5>
+				
+				<div class="message-date"><a href="index.html#post-38817" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T01:38:29+0000" data-time="1133401109" data-date-string="Dec 1, 2005" data-time-string="1:38 AM" title="Dec 1, 2005 at 1:38 AM">Dec 1, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38817" class="u-concealed" rel="nofollow">#1</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Dec 23, 2003</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>7,989</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>180</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>63</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38817" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T01:38:29+0000" data-time="1133401109" data-date-string="Dec 1, 2005" data-time-string="1:38 AM" title="Dec 1, 2005 at 1:38 AM">Dec 1, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38817" class="u-concealed" rel="nofollow">#1</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38817"
+							data-lb-caption-desc="RainmanTime &middot; Dec 1, 2005 at 1:38 AM">
+
+							
+								
+
+	
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">Greetings!<br />
+<br />
+At the behest of Darby, a valued contributor to this forum, this thread is being started to help folks understand why vectors are a necessary mathematical construct when it comes to physics (more specifically, the dynamics of motion of a body).  This should then lead to a natural discussion of how combinations of vectors lead to the mathematical necessity for the generalized concept of a tensor, and we will further understand how a vector is a special case of a generalized tensor.  Furthermore, once we have the concepts of vectors solidly established (and answered any questions from those who may have them), I may also describe how the strict concept of a vector can be generalized in a manner that also applied to the dimensions of Mass and Time, in addition to their classical application to only spatial physics. Questions &amp; contributions are certainly welcome.  While I am used to being a teacher on such things, I don't claim to be the ultimate authority on all things vector and tensor.<br />
+<br />
+IMO, I think the best place to begin is to establish the concept of a Scalar, and how it is different from a Vector, as this will certainly help us establish the basis for the vector itself (no pun intended!).  A scalar corresponds to any generalized measurement which is  <b>not</b> associated with any specific directional orientation in 3-D space.  One good example of a Scalar measurement would be atmospheric temperature.  If I look at the thermometer outside and see it is 65 degrees F outside, there is no depedency upon which direction the thermometer is facing.  The temperature is 65 degrees whether it is facing N, S, E, W or some other off-nominal direction in between these.  Another way of saying it would be to state that the air temperature has a  <b>Magnitude</b> associated with it, but no specific  <b>Direction</b> associated with it.  In the classical formulation of physics, we would also say that the mass of a body is also a Scalar quantity, as we can denote the total  <b>Magnitude</b>  of the body's mass (Kg, or Slugs, or Pounds-mass), but there is no specific  <b>Direction</b> associated with this measurement of mass.  (In reality, we cannot and do not directly measure a body's mass, but rather we will measure its weight within the gravitational field of the earth, and then compensate for the gravitational field by dividing that weight by &quot;g&quot;).  Another good example of a scalar measure would be the number of electrons associated with a specific element.  It is just a number, with no spatial orientation necessary to understand that number (e.g. hydrogen has 1 electron).  BTW: For further reference, we can refer to a Scalar quantity as a &quot;tensor of Rank 0&quot;.  It will be clear why we refer to it in this way as we progress.  Just file that away in the &quot;to be used later&quot; bag of information. <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite2" alt=";)" title="Wink    ;)" /><br />
+<br />
+Now is where we can finally introduce the concept of a Vector and how it goes beyond the concept of the Scalar. A Vector is defined as a physical measurement that possesses  <i>both</i>  <b>Magnitude</b>  <i>and</i>   <b>Direction.</b> IOW, to fully characterize this type of measurement it is not enough to just know the  <b>Magnitude.</b> We must also understand how the  <b>Magnitude</b> of this measurement is oriented in space.  The most common example of a Vector quantity is the weight of an object, let's say the weight we read when we step on the scale.  The scale will give us the scalar  <b>Magnitude</b> (no pun intended, again!).  However, the direction associated with any weight measurement that we make here on the surface of the earth is, by definition, associated with the  <b>Direction</b> that gravity acts, namely towards the center of the earth.  Therefore, my weight has both a scalar  <b>Magnitude</b> of 170 pounds, and a vector  <b>Direction</b> pointed downwards towards the center of the earth.  Likewise, any measurement of force (of which weight is a specialized form of force measurement associated with a body's mass) will be a vector with both  <b>Magnitude</b> and  <b>Direction</b>.  So when my car stalls on the road (which my Vette has never done, thank goodness) and I have to push it, I will exert a specific  <b>Magnitude</b> of force against the car to get it rolling, and that force will be oriented in a specific  <b>Direction</b>, namely in a horizontal direction parallel to the surface of the earth.<br />
+<br />
+This is a good enough stopping point for Part 1, to allow folks to read/consider this material, and ask any questions or for any clarifications.  In the next part we will discuss 3-dimensional coordinate systems, and why they are important with respect to measuring and manipulating vector quantities, and how this leads to orthogonal systems of &quot;basis vectors&quot; for any given coordinate system or frame of reference.<br />
+<br />
+RMT</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+								
+
+	
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="ussfletcher"
+		data-content="post-38818"
+		id="js-post-38818">
+
+		<span class="u-anchorTarget" id="post-38818"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/ussfletcher.1353/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1353" data-xf-init="member-tooltip" style="background-color: #7cb342; color: #ccff90">
+			<span class="avatar-u1353-s">U</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/ussfletcher.1353/index.html" class="username " dir="auto" data-user-id="1353" data-xf-init="member-tooltip" itemprop="name">ussfletcher</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38818" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T01:47:40+0000" data-time="1133401660" data-date-string="Dec 1, 2005" data-time-string="1:47 AM" title="Dec 1, 2005 at 1:47 AM">Dec 1, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38818" class="u-concealed" rel="nofollow">#2</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Jul 26, 2005</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>108</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--location"></i>
+
+												
+											</dt>
+											<dd><a href="https://timetravelinstitute.com/misc/location-info?location=MI" rel="nofollow" target="_blank" class="u-concealed">MI</a></dd>
+										</dl>
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38818" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T01:47:40+0000" data-time="1133401660" data-date-string="Dec 1, 2005" data-time-string="1:47 AM" title="Dec 1, 2005 at 1:47 AM">Dec 1, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38818" class="u-concealed" rel="nofollow">#2</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38818"
+							data-lb-caption-desc="ussfletcher &middot; Dec 1, 2005 at 1:47 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">continue please  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite7" alt=":p" title="Stick out tongue    :p" /></div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="creedo299"
+		data-content="post-38819"
+		id="js-post-38819">
+
+		<span class="u-anchorTarget" id="post-38819"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/creedo299.176/index.html" class="avatar avatar--s" data-user-id="176" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/176-1483473279.jpg"  alt="creedo299" class="avatar-u176-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/creedo299.176/index.html" class="username " dir="auto" data-user-id="176" data-xf-init="member-tooltip" itemprop="name">creedo299</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38819" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T02:31:39+0000" data-time="1133404299" data-date-string="Dec 1, 2005" data-time-string="2:31 AM" title="Dec 1, 2005 at 2:31 AM">Dec 1, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38819" class="u-concealed" rel="nofollow">#3</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Jan 26, 2002</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>4,238</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>25</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--location"></i>
+
+												
+											</dt>
+											<dd><a href="https://timetravelinstitute.com/misc/location-info?location=Wash+State%2C" rel="nofollow" target="_blank" class="u-concealed">Wash State,</a></dd>
+										</dl>
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38819" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T02:31:39+0000" data-time="1133404299" data-date-string="Dec 1, 2005" data-time-string="2:31 AM" title="Dec 1, 2005 at 2:31 AM">Dec 1, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38819" class="u-concealed" rel="nofollow">#3</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38819"
+							data-lb-caption-desc="creedo299 &middot; Dec 1, 2005 at 2:31 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper"><b>Re: Vector &amp; Tensor Fundamentals *DELETED*</b><br />
+<br />
+Post deleted by creedo299</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="Darby"
+		data-content="post-38820"
+		id="js-post-38820">
+
+		<span class="u-anchorTarget" id="post-38820"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/darby.132/index.html" class="avatar avatar--s" data-user-id="132" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/132-1480571092.jpg" srcset="../../data/avatars/m/0/132-1480571092.jpg 2x" alt="Darby" class="avatar-u132-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/darby.132/index.html" class="username " dir="auto" data-user-id="132" data-xf-init="member-tooltip" itemprop="name">Darby</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38820" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T19:45:20+0000" data-time="1133466320" data-date-string="Dec 1, 2005" data-time-string="7:45 PM" title="Dec 1, 2005 at 7:45 PM">Dec 1, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38820" class="u-concealed" rel="nofollow">#4</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Mar 8, 2001</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>5,929</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>179</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38820" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T19:45:20+0000" data-time="1133466320" data-date-string="Dec 1, 2005" data-time-string="7:45 PM" title="Dec 1, 2005 at 7:45 PM">Dec 1, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38820" class="u-concealed" rel="nofollow">#4</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38820"
+							data-lb-caption-desc="Darby &middot; Dec 1, 2005 at 7:45 PM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">creedo,<br />
+<br />
+For this thread can we hold off on  the &quot;stringed space&quot; stuff?  Please?<br />
+<br />
+Rainman is approaching this, at this point in time, from the POV of basic, vaniilla flavored, no particular complications high school physics.  We need to build the stage in such a way that people can understand the subject one plank at a time without jumping into the ozone and leaving the &quot;details&quot; behind.<br />
+<br />
+Thanks. <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" /></div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="Darby"
+		data-content="post-38821"
+		id="js-post-38821">
+
+		<span class="u-anchorTarget" id="post-38821"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/darby.132/index.html" class="avatar avatar--s" data-user-id="132" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/132-1480571092.jpg" srcset="../../data/avatars/m/0/132-1480571092.jpg 2x" alt="Darby" class="avatar-u132-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/darby.132/index.html" class="username " dir="auto" data-user-id="132" data-xf-init="member-tooltip" itemprop="name">Darby</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38821" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T20:04:05+0000" data-time="1133467445" data-date-string="Dec 1, 2005" data-time-string="8:04 PM" title="Dec 1, 2005 at 8:04 PM">Dec 1, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38821" class="u-concealed" rel="nofollow">#5</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Mar 8, 2001</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>5,929</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>179</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38821" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-01T20:04:05+0000" data-time="1133467445" data-date-string="Dec 1, 2005" data-time-string="8:04 PM" title="Dec 1, 2005 at 8:04 PM">Dec 1, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38821" class="u-concealed" rel="nofollow">#5</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38821"
+							data-lb-caption-desc="Darby &middot; Dec 1, 2005 at 8:04 PM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">Rainman,<br />
+<br />
+Great start!  Thanks.<br />
+<br />
+Discussion:<br />
+<br />
+At this point in the discussion we can make a generalization (that holds true for now but not necessarily as we move into higher and more complicated areas of the description of physical reality):<br />
+<br />
+A scalar is generally described by one number - the magnitude - and it is a coordinate.<br />
+<br />
+A vector is described by two or more numbers (depending on the number of dimensions) - it is described by a series of coordinates that describe both the direction and magnitude.  What makes a vector interesting is that if you rotate the frame of reference the individual coordinates change (in 3D space, x,y,z,) but the vector does not change.  The vector itself has, as a whole, a more &quot;meaningful&quot; reality that its individual components.  <br />
+<br />
+I won't say any more because coordinate systems is Rainman's next lecture.</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="newbie_0"
+		data-content="post-38822"
+		id="js-post-38822">
+
+		<span class="u-anchorTarget" id="post-38822"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/newbie_0.975/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="975" data-xf-init="member-tooltip" style="background-color: #1e88e5; color: #82b1ff">
+			<span class="avatar-u975-s">N</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/newbie_0.975/index.html" class="username " dir="auto" data-user-id="975" data-xf-init="member-tooltip" itemprop="name">newbie_0</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38822" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-02T09:30:37+0000" data-time="1133515837" data-date-string="Dec 2, 2005" data-time-string="9:30 AM" title="Dec 2, 2005 at 9:30 AM">Dec 2, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38822" class="u-concealed" rel="nofollow">#6</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Aug 25, 2004</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>473</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38822" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-02T09:30:37+0000" data-time="1133515837" data-date-string="Dec 2, 2005" data-time-string="9:30 AM" title="Dec 2, 2005 at 9:30 AM">Dec 2, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38822" class="u-concealed" rel="nofollow">#6</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38822"
+							data-lb-caption-desc="newbie_0 &middot; Dec 2, 2005 at 9:30 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">is a rank 3 tensor the same as a vector with 3 dimensions?  I'm familiar with all of the above but the term tensor I never heard a lot of until now.</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="newbie_0"
+		data-content="post-38823"
+		id="js-post-38823">
+
+		<span class="u-anchorTarget" id="post-38823"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/newbie_0.975/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="975" data-xf-init="member-tooltip" style="background-color: #1e88e5; color: #82b1ff">
+			<span class="avatar-u975-s">N</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/newbie_0.975/index.html" class="username " dir="auto" data-user-id="975" data-xf-init="member-tooltip" itemprop="name">newbie_0</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38823" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-02T09:30:44+0000" data-time="1133515844" data-date-string="Dec 2, 2005" data-time-string="9:30 AM" title="Dec 2, 2005 at 9:30 AM">Dec 2, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38823" class="u-concealed" rel="nofollow">#7</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Aug 25, 2004</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>473</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38823" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-02T09:30:44+0000" data-time="1133515844" data-date-string="Dec 2, 2005" data-time-string="9:30 AM" title="Dec 2, 2005 at 9:30 AM">Dec 2, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38823" class="u-concealed" rel="nofollow">#7</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38823"
+							data-lb-caption-desc="newbie_0 &middot; Dec 2, 2005 at 9:30 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">twitchy finger, double post...</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="Darby"
+		data-content="post-38824"
+		id="js-post-38824">
+
+		<span class="u-anchorTarget" id="post-38824"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/darby.132/index.html" class="avatar avatar--s" data-user-id="132" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/132-1480571092.jpg" srcset="../../data/avatars/m/0/132-1480571092.jpg 2x" alt="Darby" class="avatar-u132-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/darby.132/index.html" class="username " dir="auto" data-user-id="132" data-xf-init="member-tooltip" itemprop="name">Darby</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38824" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-03T07:39:06+0000" data-time="1133595546" data-date-string="Dec 3, 2005" data-time-string="7:39 AM" title="Dec 3, 2005 at 7:39 AM">Dec 3, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38824" class="u-concealed" rel="nofollow">#8</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Mar 8, 2001</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>5,929</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>179</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38824" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-03T07:39:06+0000" data-time="1133595546" data-date-string="Dec 3, 2005" data-time-string="7:39 AM" title="Dec 3, 2005 at 7:39 AM">Dec 3, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38824" class="u-concealed" rel="nofollow">#8</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38824"
+							data-lb-caption-desc="Darby &middot; Dec 3, 2005 at 7:39 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">newbie,<br />
+<br />
+ 
+
+<div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			is a rank 3 tensor the same as a vector with 3 dimensions? I'm familiar with all of the above but the term tensor I never heard a lot of until now.
+		</div>
+		<div class="bbCodeBlock-expandLink"><a>Click to expand...</a></div>
+	</div>
+</div>No.  The rank of the tensor indicates the number of indexes (indices), i.e. A_ij where &quot;A&quot; has two indexes &quot;i&quot; and &quot;j&quot;.  But were jumping the gun. <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite2" alt=";)" title="Wink    ;)" /></div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="newbie_0"
+		data-content="post-38825"
+		id="js-post-38825">
+
+		<span class="u-anchorTarget" id="post-38825"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/newbie_0.975/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="975" data-xf-init="member-tooltip" style="background-color: #1e88e5; color: #82b1ff">
+			<span class="avatar-u975-s">N</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/newbie_0.975/index.html" class="username " dir="auto" data-user-id="975" data-xf-init="member-tooltip" itemprop="name">newbie_0</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38825" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-03T23:04:54+0000" data-time="1133651094" data-date-string="Dec 3, 2005" data-time-string="11:04 PM" title="Dec 3, 2005 at 11:04 PM">Dec 3, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38825" class="u-concealed" rel="nofollow">#9</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Aug 25, 2004</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>473</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38825" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-03T23:04:54+0000" data-time="1133651094" data-date-string="Dec 3, 2005" data-time-string="11:04 PM" title="Dec 3, 2005 at 11:04 PM">Dec 3, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38825" class="u-concealed" rel="nofollow">#9</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38825"
+							data-lb-caption-desc="newbie_0 &middot; Dec 3, 2005 at 11:04 PM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">I think I used a term incorrectly (dimension of vector).<br />
+<br />
+Reformed question:<br />
+<br />
+&lt;1,2,3&gt;<br />
+<br />
+I'm certain the above is a vector (probably an ambigious term but that's the only way it's been explained to me until now) but is it also considered a rank3 tensor?</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="RainmanTime"
+		data-content="post-38826"
+		id="js-post-38826">
+
+		<span class="u-anchorTarget" id="post-38826"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/rainmantime.584/index.html" class="avatar avatar--s" data-user-id="584" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/584-1480571092.jpg" srcset="../../data/avatars/m/0/584-1480571092.jpg 2x" alt="RainmanTime" class="avatar-u584-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/rainmantime.584/index.html" class="username " dir="auto" data-user-id="584" data-xf-init="member-tooltip" itemprop="name">RainmanTime</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">70,000 Tachyons</h5>
+				
+				<div class="message-date"><a href="index.html#post-38826" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-16T02:13:46+0000" data-time="1134699226" data-date-string="Dec 16, 2005" data-time-string="2:13 AM" title="Dec 16, 2005 at 2:13 AM">Dec 16, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38826" class="u-concealed" rel="nofollow">#10</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Dec 23, 2003</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>7,989</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>180</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>63</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38826" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-16T02:13:46+0000" data-time="1134699226" data-date-string="Dec 16, 2005" data-time-string="2:13 AM" title="Dec 16, 2005 at 2:13 AM">Dec 16, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38826" class="u-concealed" rel="nofollow">#10</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38826"
+							data-lb-caption-desc="RainmanTime &middot; Dec 16, 2005 at 2:13 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">With the recent &quot;Physics Question&quot; thread, and the subsequent questions that have come up there, the answers to those questions (Lorentz Transformations) are getting back to the topic of vectors and tensors.  <br />
+<br />
+Therefore, perhaps it is TIME to move on to the next level of explanation of vectors, and that would be to introduce the concept of COORDINATE SYSTEMS and how they result from our need to define a Vector as being a MAGNITUDE and DIRECTION.  We need to be able to accurately describe what we mean by the concept of a vector's DIRECTION. In this post we will define the spatial coordinate systems that are used to define the fields of action that a vector operates within.  We will describe and establish the mathematical foundation for coordinate systems by progressing from 1-dimensional, to 2-dimensional, and then finally to 3-dimensional spatial, vector coordinate systems.  So let's gets started with the simplest vector, which only operates in 1 spatial dimension/direction...<br />
+<br />
+<b>1-Dimensional Vector Coordinate System (+ or -) &quot;X&quot;</b> <br />
+The description of a 1-dimensional vector and its associated coordinate system is quite easy to picture, especially since we always will draw a vector as a line with an arrowhead at one end.  The length of the line we draw for a vector represents the vector quantity's  <b>Magnitude</b> while the direction that the arrowhead is pointing in represent's the vector quantity's  <b>Direction</b>.  The easiest way to visualize this is by simply constructing a number line which starts with zero in the middle, and extends towards infinity in both directions (+ and -) away from zero.  We can then directly overlay the classical drawing of a vector (the line with the arrowhead) on top of the number line. The <b>Magnitude</b> of the vector then becomes which numerical value on the number line that the head of the vector stretches to touch.  The <b>Direction</b> of this 1-D vector is then described as either &quot;+X&quot; or &quot;-X&quot; depending on whether the vector stretches from zero in the positive direction along the number line, or in the negative direction. This simple way to visualize a 1-D vector helps us set the stage for how we will handle vectors in higher dimensional, orthogonal coordinate systems.<br />
+<br />
+<b>2-Dimensional Vector Coordinate System (+ or -) (&quot;X&quot; &amp; &quot;Y&quot;)</b> <br />
+To move on to a description of a 2-dimensional vector coordinate systems, we simply add another number line, except we must rotate it such that it is 90 degrees (orthogonal) to our original, 1-D &quot;X&quot; axis.  Of course, we call this second dimensional axis the &quot;Y&quot; axis.  But that is just about where the simplicity ends, as once we move to a 2-D space, we must now have the mathematical tools of trigonometry to help us in dealing the vectors that can be oriented in any direction of this 2-D space.  Certainly we can take the vector arrow diagram and still line it up with the &quot;X&quot; axis, but now we can also line the vector arrow diagram up with the &quot;Y&quot; axis as well.  And that is not all, since we can draw the vector arrow at any 2-D orientation with respect to the &quot;X&quot; and &quot;Y&quot; axes.  For example, if we had a vector quantity (say a force) with a <b>Magnitude</b> of 5 pounds, but a <b>Direction</b> of 45 degrees with respect to the X and Y axes, we can see that not all of the 5 pounds of force is going in the &quot;X&quot; direction, and not all of it is going in the &quot;Y&quot; direction. With the help of trigonometry, which finds its basis in the Pythagorean Theorem, we can calculate that the overall force of 5 pounds acting at a 45 degree angle to the X and Y axes will yield a force of approximately 3.54 pounds in the &quot;X&quot; direction and another 3.54 pounds in the &quot;Y&quot; direction.  Now some would say &quot;Hey, 3.54 lbs + 3.54 lbs does NOT add up to 5 pounds!&quot;  This is correct, and the reason is because these components operate in orthogonally different directions in this 2-D space, we must use the Pythagorean Theorem to add their effects to get the resulting force.  This is called  <i>Vector Addition of orthogonal vector components.</i> If you apply the Pythagorean Theorem to the X and Y components of the force (3.54 pounds in each axis), what you end up with is:<br />
+<br />
+Resultant Vector Magnitude = SQRT(X-magnitude^2 + Y-magnitude^2) = SQRT(25) = 5 Pounds!<br />
+<br />
+This is why trigonometry is an essential mathematical skill for a scientist, and especially for an engineer.  Since we need to keep track of the &quot;components&quot; of vectors in an orthogonal coordinate system, we must be able to apply the helpful tools of mathematics to break down a vector with a resulting <b>Magnitude</b> and <b>Direction</b> into the component vector  <b>Magnitudes</b> in the individual coordinate axes  <b>Directions</b> .  Doing this makes it easy to add many different vectors with many different directions.  We simply break each vector down into its &quot;X&quot; and &quot;Y&quot; components, and then add all the &quot;X&quot; components together, separately add all the &quot;Y&quot; components together, and then we can use our trigonometry skills in a reverse fashion to calculate the overall resulting vector <b>Magnitude</b> and <b>Direction</b> of the summed vector components.<br />
+<br />
+<b>3-Dimensional Vector Coordinate System (+ or -) (&quot;X&quot; &amp; &quot;Y&quot; &amp; &quot;Z&quot;)</b> <br />
+OK, if we have made the leap of 2 dimensions, and we can handle using the tools of trigonometry reqired to deal with vectors in 2 dimensions, then the extension to a full-up, 3-dimensional coordinate system is as easy as adding a 3rd number line.  And this 3rd number line must be at 90 degrees (mutually orthogonal) with respect to the original &quot;X&quot; and &quot;Y&quot; axes.  Hence, we have arrived at a complete 3-D &quot;X-Y-Z&quot; orthogonal coordinate system.  Now, we can also see that there is going to be a LOT more trigonometry that will need to be performed, because now a vector can take on any orientation in 3-D space with respect to the X,Y, and Y coordinate axes.  Just as in the 2-D system, we use the trigonometry to decompose a single vector's <b>Magnitude</b> and <b>Direction</b> into the vector's components in the individual X, Y, and Z directions.<br />
+<br />
+The material we have covered here is some of the most important, early fundamental knowledge that an engineering student must learn, understand, and show proficiency in.  This is typically done in a course called &quot;vector statics&quot; which is often taught as part of the mechanical engineering curriculum.  This is one of the earliest classes that begins to &quot;wash out&quot; those students who do not have the math skills (or do not wish to acquire them) that are needed to move to more advanced science and engineering topics.  The ability to work in coordinate systems with vector statics concepts is a foundation for the next most complicated course which is aptly named &quot;vector dynamics&quot;.<br />
+<br />
+As we close this section of this thread, it is important to note that there are many more orthogonal coordinate systems than just the &quot;X-Y-Z&quot; system (commonly called a Cartesian coordinate system).  We can also define another popular orthogonal 3-D coordinate system which is especially useful for working problems related to planets, stars, and moons.  We call this orthogonal coordinate system a Spherical coordinate system since the coordinate system is centered on spheres rather than straight X-Y-Z &quot;cubes&quot;.  Instead of &quot;X-Y-Z&quot;, in the Spherical coordinate system we use three different geometric variables, as follows:<br />
+<br />
+Rho = Radius  (The distance from the center of a sphere to some points on its outer surface).<br />
+Theta = Azimuth (The angular displacement from a given reference line around the horizontal equator of the sphere)<br />
+Phi = Elevation (The angular displacement from a defined polar axis of the sphere which is orthogonal to the equator's reference horizontal line)<br />
+<br />
+That's enough for now.  I think I should pause again, and allow folks to ask questions or perhaps point out errors or omissions of important concepts that I may have committed in this writeup.  In the next writeup, I will begin to introduce the concept of vector mathematics, specifically focusing on the two different means to multiply vectors and/or scalars:  The &quot;vector dot product&quot; and the &quot;vector cross product&quot;.<br />
+<br />
+RMT</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="RainmanTime"
+		data-content="post-38827"
+		id="js-post-38827">
+
+		<span class="u-anchorTarget" id="post-38827"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/rainmantime.584/index.html" class="avatar avatar--s" data-user-id="584" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/584-1480571092.jpg" srcset="../../data/avatars/m/0/584-1480571092.jpg 2x" alt="RainmanTime" class="avatar-u584-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/rainmantime.584/index.html" class="username " dir="auto" data-user-id="584" data-xf-init="member-tooltip" itemprop="name">RainmanTime</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">70,000 Tachyons</h5>
+				
+				<div class="message-date"><a href="index.html#post-38827" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-16T02:41:06+0000" data-time="1134700866" data-date-string="Dec 16, 2005" data-time-string="2:41 AM" title="Dec 16, 2005 at 2:41 AM">Dec 16, 2005</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38827" class="u-concealed" rel="nofollow">#11</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Dec 23, 2003</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>7,989</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>180</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>63</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38827" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2005-12-16T02:41:06+0000" data-time="1134700866" data-date-string="Dec 16, 2005" data-time-string="2:41 AM" title="Dec 16, 2005 at 2:41 AM">Dec 16, 2005</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38827" class="u-concealed" rel="nofollow">#11</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38827"
+							data-lb-caption-desc="RainmanTime &middot; Dec 16, 2005 at 2:41 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">Hi Newbie,<br />
+
+
+<div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			Reformed question:<br />
+<br />
+&lt;1,2,3&gt;<br />
+<br />
+I'm certain the above is a vector (probably an ambigious term but that's the only way it's been explained to me until now) but is it also considered a rank3 tensor?
+		</div>
+		<div class="bbCodeBlock-expandLink"><a>Click to expand...</a></div>
+	</div>
+</div>The answer is no.  And as Darby alluded to, we are jumping the gun a bit.  As we move into tensors it will become clear to you why the answer is no.  But until then just remember the rule of thumb that a vector is, by definition, a tensor of rank 1, and a scalar is, by definition, a tensor of rank 0.<br />
+<br />
+The vector example you have given above is still a rank 1 tensor; however, it is a vector that describes a 3-dimensional space.  The following is also a vector (rank 1 tensor):<br />
+<br />
+&lt;1,2,3,4,5&gt;<br />
+<br />
+The difference (if you assume that these 5 numbers all represent magnitudes in different, orthogonal dimensions) is that this vector describes a 5-dimensional space.<br />
+<br />
+Got it?<br />
+RMT</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="ussfletcher"
+		data-content="post-38828"
+		id="js-post-38828">
+
+		<span class="u-anchorTarget" id="post-38828"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/ussfletcher.1353/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1353" data-xf-init="member-tooltip" style="background-color: #7cb342; color: #ccff90">
+			<span class="avatar-u1353-s">U</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/ussfletcher.1353/index.html" class="username " dir="auto" data-user-id="1353" data-xf-init="member-tooltip" itemprop="name">ussfletcher</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38828" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-27T04:07:40+0000" data-time="1138334860" data-date-string="Jan 27, 2006" data-time-string="4:07 AM" title="Jan 27, 2006 at 4:07 AM">Jan 27, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38828" class="u-concealed" rel="nofollow">#12</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Jul 26, 2005</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>108</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--location"></i>
+
+												
+											</dt>
+											<dd><a href="https://timetravelinstitute.com/misc/location-info?location=MI" rel="nofollow" target="_blank" class="u-concealed">MI</a></dd>
+										</dl>
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38828" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-27T04:07:40+0000" data-time="1138334860" data-date-string="Jan 27, 2006" data-time-string="4:07 AM" title="Jan 27, 2006 at 4:07 AM">Jan 27, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38828" class="u-concealed" rel="nofollow">#12</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38828"
+							data-lb-caption-desc="ussfletcher &middot; Jan 27, 2006 at 4:07 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">Next lesson Mr.Rmt</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="RainmanTime"
+		data-content="post-38829"
+		id="js-post-38829">
+
+		<span class="u-anchorTarget" id="post-38829"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/rainmantime.584/index.html" class="avatar avatar--s" data-user-id="584" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/584-1480571092.jpg" srcset="../../data/avatars/m/0/584-1480571092.jpg 2x" alt="RainmanTime" class="avatar-u584-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/rainmantime.584/index.html" class="username " dir="auto" data-user-id="584" data-xf-init="member-tooltip" itemprop="name">RainmanTime</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">70,000 Tachyons</h5>
+				
+				<div class="message-date"><a href="index.html#post-38829" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-27T15:29:47+0000" data-time="1138375787" data-date-string="Jan 27, 2006" data-time-string="3:29 PM" title="Jan 27, 2006 at 3:29 PM">Jan 27, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38829" class="u-concealed" rel="nofollow">#13</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Dec 23, 2003</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>7,989</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>180</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>63</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38829" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-27T15:29:47+0000" data-time="1138375787" data-date-string="Jan 27, 2006" data-time-string="3:29 PM" title="Jan 27, 2006 at 3:29 PM">Jan 27, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38829" class="u-concealed" rel="nofollow">#13</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38829"
+							data-lb-caption-desc="RainmanTime &middot; Jan 27, 2006 at 3:29 PM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">Hi fletch,<br />
+<br />
+ 
+
+<div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			Next lesson Mr.Rmt
+		</div>
+		<div class="bbCodeBlock-expandLink"><a>Click to expand...</a></div>
+	</div>
+</div>OK.  I was not aware that there were people still interested.  Perhaps this weekend, while I am working on lesson plans for class next week, I can throw together a post to discuss vector multiplication and how the &quot;dot product&quot; differs from the &quot;cross product&quot; and how the concept of a generalized tensor arises from the consideration of these mathematical operations on vectors.<br />
+<br />
+RMT</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="ussfletcher"
+		data-content="post-38830"
+		id="js-post-38830">
+
+		<span class="u-anchorTarget" id="post-38830"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/ussfletcher.1353/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1353" data-xf-init="member-tooltip" style="background-color: #7cb342; color: #ccff90">
+			<span class="avatar-u1353-s">U</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/ussfletcher.1353/index.html" class="username " dir="auto" data-user-id="1353" data-xf-init="member-tooltip" itemprop="name">ussfletcher</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38830" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-31T03:07:47+0000" data-time="1138676867" data-date-string="Jan 31, 2006" data-time-string="3:07 AM" title="Jan 31, 2006 at 3:07 AM">Jan 31, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38830" class="u-concealed" rel="nofollow">#14</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Jul 26, 2005</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>108</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--location"></i>
+
+												
+											</dt>
+											<dd><a href="https://timetravelinstitute.com/misc/location-info?location=MI" rel="nofollow" target="_blank" class="u-concealed">MI</a></dd>
+										</dl>
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38830" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-31T03:07:47+0000" data-time="1138676867" data-date-string="Jan 31, 2006" data-time-string="3:07 AM" title="Jan 31, 2006 at 3:07 AM">Jan 31, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38830" class="u-concealed" rel="nofollow">#14</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38830"
+							data-lb-caption-desc="ussfletcher &middot; Jan 31, 2006 at 3:07 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">You teach, and you are an aerospace engineer?</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="RainmanTime"
+		data-content="post-38831"
+		id="js-post-38831">
+
+		<span class="u-anchorTarget" id="post-38831"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/rainmantime.584/index.html" class="avatar avatar--s" data-user-id="584" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/584-1480571092.jpg" srcset="../../data/avatars/m/0/584-1480571092.jpg 2x" alt="RainmanTime" class="avatar-u584-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/rainmantime.584/index.html" class="username " dir="auto" data-user-id="584" data-xf-init="member-tooltip" itemprop="name">RainmanTime</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">70,000 Tachyons</h5>
+				
+				<div class="message-date"><a href="index.html#post-38831" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-31T03:42:19+0000" data-time="1138678939" data-date-string="Jan 31, 2006" data-time-string="3:42 AM" title="Jan 31, 2006 at 3:42 AM">Jan 31, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38831" class="u-concealed" rel="nofollow">#15</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Dec 23, 2003</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>7,989</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>180</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>63</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38831" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-31T03:42:19+0000" data-time="1138678939" data-date-string="Jan 31, 2006" data-time-string="3:42 AM" title="Jan 31, 2006 at 3:42 AM">Jan 31, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38831" class="u-concealed" rel="nofollow">#15</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38831"
+							data-lb-caption-desc="RainmanTime &middot; Jan 31, 2006 at 3:42 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper"><div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			You teach, and you are an aerospace engineer?
+		</div>
+		<div class="bbCodeBlock-expandLink"><a>Click to expand...</a></div>
+	</div>
+</div>Yes.  And I apologize for not getting the next lesson up here.  This weekend was especially hectic, as is this week at work.  If I am lucky, I'll have more time over Super Bowl Weekend! <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" /><br />
+<br />
+RMT</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="ussfletcher"
+		data-content="post-38832"
+		id="js-post-38832">
+
+		<span class="u-anchorTarget" id="post-38832"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/ussfletcher.1353/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1353" data-xf-init="member-tooltip" style="background-color: #7cb342; color: #ccff90">
+			<span class="avatar-u1353-s">U</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/ussfletcher.1353/index.html" class="username " dir="auto" data-user-id="1353" data-xf-init="member-tooltip" itemprop="name">ussfletcher</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38832" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-31T23:01:44+0000" data-time="1138748504" data-date-string="Jan 31, 2006" data-time-string="11:01 PM" title="Jan 31, 2006 at 11:01 PM">Jan 31, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38832" class="u-concealed" rel="nofollow">#16</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Jul 26, 2005</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>108</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--location"></i>
+
+												
+											</dt>
+											<dd><a href="https://timetravelinstitute.com/misc/location-info?location=MI" rel="nofollow" target="_blank" class="u-concealed">MI</a></dd>
+										</dl>
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38832" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-01-31T23:01:44+0000" data-time="1138748504" data-date-string="Jan 31, 2006" data-time-string="11:01 PM" title="Jan 31, 2006 at 11:01 PM">Jan 31, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38832" class="u-concealed" rel="nofollow">#16</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38832"
+							data-lb-caption-desc="ussfletcher &middot; Jan 31, 2006 at 11:01 PM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">Where do you teach?</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="RainmanTime"
+		data-content="post-38833"
+		id="js-post-38833">
+
+		<span class="u-anchorTarget" id="post-38833"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/rainmantime.584/index.html" class="avatar avatar--s" data-user-id="584" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/584-1480571092.jpg" srcset="../../data/avatars/m/0/584-1480571092.jpg 2x" alt="RainmanTime" class="avatar-u584-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/rainmantime.584/index.html" class="username " dir="auto" data-user-id="584" data-xf-init="member-tooltip" itemprop="name">RainmanTime</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">70,000 Tachyons</h5>
+				
+				<div class="message-date"><a href="index.html#post-38833" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-01T00:25:41+0000" data-time="1138753541" data-date-string="Feb 1, 2006" data-time-string="12:25 AM" title="Feb 1, 2006 at 12:25 AM">Feb 1, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38833" class="u-concealed" rel="nofollow">#17</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Dec 23, 2003</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>7,989</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>180</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>63</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38833" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-01T00:25:41+0000" data-time="1138753541" data-date-string="Feb 1, 2006" data-time-string="12:25 AM" title="Feb 1, 2006 at 12:25 AM">Feb 1, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38833" class="u-concealed" rel="nofollow">#17</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38833"
+							data-lb-caption-desc="RainmanTime &middot; Feb 1, 2006 at 12:25 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper"><div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			Where do you teach?
+		</div>
+		<div class="bbCodeBlock-expandLink"><a>Click to expand...</a></div>
+	</div>
+</div><a href="http://www.csupomona.edu/~aro/index.html" target="_blank" class="link link--external" rel="nofollow noopener">http://www.csupomona.edu/~aro/index.html</a><br />
+<br />
+RMT</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="bogz"
+		data-content="post-38834"
+		id="js-post-38834">
+
+		<span class="u-anchorTarget" id="post-38834"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/bogz.1454/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1454" data-xf-init="member-tooltip" style="background-color: #c2185b; color: #ff80ab">
+			<span class="avatar-u1454-s">B</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/bogz.1454/index.html" class="username " dir="auto" data-user-id="1454" data-xf-init="member-tooltip" itemprop="name">bogz</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38834" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-01T01:18:29+0000" data-time="1138756709" data-date-string="Feb 1, 2006" data-time-string="1:18 AM" title="Feb 1, 2006 at 1:18 AM">Feb 1, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38834" class="u-concealed" rel="nofollow">#18</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Jan 13, 2006</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>379</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--location"></i>
+
+												
+											</dt>
+											<dd><a href="https://timetravelinstitute.com/misc/location-info?location=Whatever" rel="nofollow" target="_blank" class="u-concealed">Whatever</a></dd>
+										</dl>
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38834" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-01T01:18:29+0000" data-time="1138756709" data-date-string="Feb 1, 2006" data-time-string="1:18 AM" title="Feb 1, 2006 at 1:18 AM">Feb 1, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38834" class="u-concealed" rel="nofollow">#18</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38834"
+							data-lb-caption-desc="bogz &middot; Feb 1, 2006 at 1:18 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">I'm caught up now.  Im still not sure how to use a tensor but I understand that a vector can be a represented by a tensor, and tensors can represent much more than a simple vector (right?). <br />
+<br />
+Basically, if I were to make a software program to do tensor math and vector math, I could use the tensor class to make a vector class and re-use a lot of the code.  (although it might not be a computationally efficient way to set it up, I'm just trying to understand the differences).<br />
+<br />
+As for vectors, magnitude, direction, dot products etc, I'm familiar with how to use all of that from programming in Second Life and hardware shader languages.</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="bogz"
+		data-content="post-38835"
+		id="js-post-38835">
+
+		<span class="u-anchorTarget" id="post-38835"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/bogz.1454/index.html" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1454" data-xf-init="member-tooltip" style="background-color: #c2185b; color: #ff80ab">
+			<span class="avatar-u1454-s">B</span> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/bogz.1454/index.html" class="username " dir="auto" data-user-id="1454" data-xf-init="member-tooltip" itemprop="name">bogz</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">New member</h5>
+				
+				<div class="message-date"><a href="index.html#post-38835" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-12T16:48:44+0000" data-time="1139762924" data-date-string="Feb 12, 2006" data-time-string="4:48 PM" title="Feb 12, 2006 at 4:48 PM">Feb 12, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38835" class="u-concealed" rel="nofollow">#19</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Jan 13, 2006</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>379</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>0</dd>
+										</dl>
+									
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--location"></i>
+
+												
+											</dt>
+											<dd><a href="https://timetravelinstitute.com/misc/location-info?location=Whatever" rel="nofollow" target="_blank" class="u-concealed">Whatever</a></dd>
+										</dl>
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38835" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-12T16:48:44+0000" data-time="1139762924" data-date-string="Feb 12, 2006" data-time-string="4:48 PM" title="Feb 12, 2006 at 4:48 PM">Feb 12, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38835" class="u-concealed" rel="nofollow">#19</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38835"
+							data-lb-caption-desc="bogz &middot; Feb 12, 2006 at 4:48 PM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper">So I'm very interested in how to multiply a rank 3 tensor by a 3d vector as in (m * s^3).  How would I do that?  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" /></div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+				
+					
+	
+	
+	<article class="message message--post js-post js-inlineModContainer  "
+		data-author="RainmanTime"
+		data-content="post-38836"
+		id="js-post-38836">
+
+		<span class="u-anchorTarget" id="post-38836"></span>
+		<div class="message-inner">
+			<div class="message-cell message-cell--user">
+				
+				
+				
+	
+	<span class="message-userArrow"></span>
+	<section itemscope itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+					<a href="../../members/rainmantime.584/index.html" class="avatar avatar--s" data-user-id="584" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/0/584-1480571092.jpg" srcset="../../data/avatars/m/0/584-1480571092.jpg 2x" alt="RainmanTime" class="avatar-u584-s" itemprop="image" /> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="uix_messagePostBitWrapper">
+			<div class="message-userDetails">
+				<h4 class="message-name"><a href="../../members/rainmantime.584/index.html" class="username " dir="auto" data-user-id="584" data-xf-init="member-tooltip" itemprop="name">RainmanTime</a></h4>
+				<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">70,000 Tachyons</h5>
+				
+				<div class="message-date"><a href="index.html#post-38836" class="u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-13T02:57:48+0000" data-time="1139799468" data-date-string="Feb 13, 2006" data-time-string="2:57 AM" title="Feb 13, 2006 at 2:57 AM">Feb 13, 2006</time></a></div>
+			</div>
+			<div class="message-permalink"><a href="index.html#post-38836" class="u-concealed" rel="nofollow">#20</a></div>
+			
+				
+				
+					
+						<div class="thThreads__message-userExtras">
+					
+							<div class="message-userExtras">
+								
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--user"></i>
+
+												
+											</dt>
+
+											<dd>Dec 23, 2003</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--messages"></i>
+
+												
+											</dt>
+											<dd>7,989</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--like"></i>
+
+												
+											</dt>
+											<dd>180</dd>
+										</dl>
+									
+									
+										<dl class="pairs pairs--justified">
+											<dt>
+												
+													
+<i class="uix_icon uix_icon--trophy"></i>
+
+												
+											</dt>
+											<dd>63</dd>
+										</dl>
+									
+									
+									
+									
+									
+										
+
+	
+
+										
+											
+
+	
+
+										
+									
+								
+							</div>
+						
+							</div>
+							<div class="thThreads__userExtra--toggle">
+								<span class="thThreads__userExtra--trigger"></span>
+							</div>
+						
+				
+			
+		</div>
+		<span class="message-userArrow"></span>
+	</section>
+
+			</div>
+			<div class="message-cell message-cell--main">
+				<div class="js-quickEditTarget message-main uix_messageContent">
+					<header class="message-attribution">
+						<a href="index.html#post-38836" class="message-attribution-main u-concealed" rel="nofollow"><time  class="u-dt" dir="auto" datetime="2006-02-13T02:57:48+0000" data-time="1139799468" data-date-string="Feb 13, 2006" data-time-string="2:57 AM" title="Feb 13, 2006 at 2:57 AM">Feb 13, 2006</time></a>
+						<div class="message-attribution-opposite">
+							
+							<a href="index.html#post-38836" class="u-concealed" rel="nofollow">#20</a>
+						</div>
+					</header>
+					<div class="message-content js-messageContent">
+
+						
+						
+						
+
+						<div class="message-userContent lbContainer js-lbContainer "
+							data-lb-id="post-38836"
+							data-lb-caption-desc="RainmanTime &middot; Feb 13, 2006 at 2:57 AM">
+
+							
+
+							<article class="message-body js-selectToQuote">
+								
+								<div class="bbWrapper"><div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			So I'm very interested in how to multiply a rank 3 tensor by a 3d vector as in (m * s^3). How would I do that? <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" />
+		</div>
+		<div class="bbCodeBlock-expandLink"><a>Click to expand...</a></div>
+	</div>
+</div>Well, before we can discuss how to do that we need to get to the discussion of covariance and contravariance, and what they mean to vectors, tensors, and coordinate system transformations in general.  Whether a particular tensor's indices are covariant or contravariant makes a big difference to the transform you are performing, the physical situation it describes, and what operations are &quot;admissable&quot;.<br />
+<br />
+And before we introduce and discuss covariance and contravariance, we should describe and discuss the tensor (matrix) operations for multiplication: Dot Product and Cross Product. That is going to be my next &quot;lecture&quot; in this thread once I can muster the block of time to organize my thoughts and review my notes/math.  I apologize for not getting to it sooner, but school has been demanding this quarter and I just gave midterms last week and am grading them all this weekend.  I won't be teaching the spring quarter at all, so this will give me time to get a few more lectures in this thread...at least up to explaining co/contra variance.  Of course,  <a href="http://en.wikipedia.org/wiki/Contravariant" target="_blank" class="link link--external" rel="nofollow noopener">Wikipedia</a>  is a good place to start reading to become familiar with these concepts if you think you are capable enough with Dot and Cross Product operations.<br />
+<br />
+Other mathematical operations and concepts (e.g. the Kroneker Delta, the Metric Tensor, etc.) arise out of these discussions which have special rules and perform useful transformations.<br />
+<br />
+But let me try to start addressing your question:  OK, so you understand that the &quot;s^3&quot; part of my equation represents a 3-vector.  One example of how to represent this is as (sx, sy, sz).  We can also use numerical indices (s1, s2, s3).  So a vector has one covariant index... assign it the variable letter &quot;i&quot;.  This allows us to refer to the vector &quot;s&quot; by the notation &quot;s(i)&quot; or as we use it in the equation &quot;s(i)^3&quot;.  Where &quot;i&quot; ranges from 1-3.<br />
+<br />
+Now let's deal with Mass/Matter and my &quot;special form of mass&quot; used in my equation.  The way I am treating these quantities mathematically in my theoretical work is as follows:<br />
+<br />
+&quot;Mass&quot; in Newton's F=ma is a vector (rank 1 tensor), so let's assign it the symbol small m and its relative covariant indices:  m(i), i=1,2,3<br />
+<br />
+&quot;Matter&quot; in Einstin's E=mc^2 is a rank 2 tensor, so let's assign it the symbol capital M. Since it is rank 2 it has two sets of indices, hence:  M(i,j), i/j=1,2,3<br />
+<br />
+Now we get to my &quot;special kind of mass&quot; in my equation, which is a rank 3 tensor. Just to distinguish it as something over and above Matter, let's give it the symbol double capital MM.  And its indexing format would be:  MM(i,j,k), i/j/k=1,2,3<br />
+<br />
+So MM is a 3x3x3 &quot;cube&quot; of 27 cells.  And we must then project the cubic volume defined by s(i)^3 onto this cube. Now if we ignore the issue of whether an index is covariant or contravariant, we could represent my equation in a tensor format as:<br />
+<br />
+Information = MM(i,j,k) * s(i)^3<br />
+<br />
+Are you with me so far?<br />
+RMT</div>
+								<div class="js-selectToQuoteEnd">&nbsp;</div>
+								
+							</article>
+
+							
+
+							
+						</div>
+
+						
+
+						
+	
+
+					</div>
+					
+					<div class="likesBar js-likeList ">
+						
+					</div>
+
+					<footer class="message-footer">
+						
+
+						<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</article>
+
+				
+			
+		</div>
+	</div>
+
+	
+		<div class="block-outer block-outer--after">
+			
+				<div class="block-outer-main"><nav class="pageNavWrapper pageNavWrapper--mixed ">
+
+
+
+<div class="pageNav  ">
+	
+
+	<ul class="pageNav-main">
+		
+
+	
+		<li class="pageNav-page pageNav-page--current "><a href="index.html">1</a></li>
+	
+
+
+		
+
+		
+
+		
+
+		
+
+	
+		<li class="pageNav-page "><a href="page-2.html">2</a></li>
+	
+
+	</ul>
+
+	
+		<a href="page-2.html" class="pageNav-jump pageNav-jump--next">Next</a>
+	
+</div>
+
+<div class="pageNavSimple">
+	
+
+	<a class="pageNavSimple-el pageNavSimple-el--current"
+		data-xf-init="tooltip" title="Go to page"
+		data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">
+		1 of 2
+	</a>
+	
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/threads/vector-tensor-fundamentals.3657/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="1"  min="1" max="2" step="1" required="required" data-menu-autofocus="true" /></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+		<a href="page-2.html" class="pageNavSimple-el pageNavSimple-el--next">
+			Next <i aria-hidden="true"></i>
+		</a>
+		<a href="page-2.html"
+			class="pageNavSimple-el pageNavSimple-el--last"
+			data-xf-init="tooltip" title="Last">
+			<i aria-hidden="true"></i> <span class="u-srOnly">Last</span>
+		</a>
+	
+</div>
+
+</nav>
+
+
+
+</div>
+				
+				
+					<div class="block-outer-opposite">
+						
+							<a href="../../login/index.html" class="button--link button" data-xf-click="overlay"><span class="button-text">
+								You must log in or register to reply here.
+							</span></a>
+						
+					</div>
+				
+			
+		</div>
+	
+
+	
+	
+
+</div>
+
+
+
+
+
+<div class="blockMessage blockMessage--none">
+	
+	
+		
+		<div class="shareButtons shareButtons--iconic" data-xf-init="share-buttons">
+			
+				<span class="shareButtons-label">Share:</span>
+			
+
+			
+
+				
+					<a class="shareButtons-button shareButtons-button--facebook" data-href="https://www.facebook.com/sharer.php?u={url}">
+						<i aria-hidden="true"></i>
+						<span>Facebook</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--twitter" data-href="https://twitter.com/intent/tweet?url={url}&amp;text={title}">
+						<i aria-hidden="true"></i>
+						<span>Twitter</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--gplus" data-href="https://plus.google.com/share?url={url}">
+						<i aria-hidden="true"></i>
+						<span>Google+</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--reddit" data-href="https://reddit.com/submit?url={url}&amp;title={title}">
+						<i aria-hidden="true"></i>
+						<span>Reddit</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--pinterest" data-href="https://pinterest.com/pin/create/bookmarklet/?url={url}&amp;description={title}">
+						<i></i>
+						<span>Pinterest</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--tumblr" data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}">
+						<i></i>
+						<span>Tumblr</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--whatsApp" data-href="https://api.whatsapp.com/send?text={title}&nbsp;{url}">
+						<i></i>
+						<span>WhatsApp</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--email" data-href="mailto:?subject={title}&amp;body={url}">
+						<i></i>
+						<span>Email</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--link is-hidden" data-clipboard="{url}">
+						<i></i>
+						<span>Link</span>
+					</a>
+					
+				
+			
+		</div>
+	
+
+</div>
+
+
+
+
+								
+	
+		
+	
+		
+		
+	
+    
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		<div class="breadcrumb p-breadcrumb--bottom">
+			<div class="pageContent">
+				
+
+				<ul class="p-breadcrumbs p-breadcrumbs--bottom"
+					itemscope itemtype="https://schema.org/BreadcrumbList">
+
+					
+					
+						
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="../../index.html" itemprop="item">
+			
+				<span itemprop="name">Forums</span>
+			
+		</a>
+	</li>
+
+					
+
+					
+					
+						
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="../../index.html#time-travel.284" itemprop="item">
+			
+				<span itemprop="name">Time Travel</span>
+			
+		</a>
+	</li>
+
+					
+						
+	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="../../forums/unsorted-threads.244/index.html" itemprop="item">
+			
+				<span itemprop="name">Unsorted Threads</span>
+			
+		</a>
+	</li>
+
+					
+				</ul>
+
+				
+
+				
+			</div>
+		</div>
+	
+
+		
+	
+
+	
+
+							</div>
+							
+
+							
+	
+
+						</div>
+
+						
+	
+		
+
+
+	
+
+					</div>
+
+				</div>
+
+				
+	
+
+			</div>
+		</div>
+
+		<footer class="p-footer" id="footer">
+
+			
+				
+<div class="uix_extendedFooter">
+	<div class="pageContent">
+		<div class="uix_extendedFooterRow">
+			
+				<div class="block" data-widget-id="11" data-widget-key="uix_footer_forumStatistics" data-widget-definition="forum_statistics">
+	<div class="block-container">
+		<h3 class="block-minorHeader">Forum statistics</h3>
+		<div class="block-body block-row">
+			<dl class="pairs pairs--justified">
+				<dt>Threads</dt>
+				<dd>8,364</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Messages</dt>
+				<dd>92,945</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Members</dt>
+				<dd>4,379</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Latest member</dt>
+				<dd><a href="../../members/prlk.6091/index.html" class="username " dir="auto" data-user-id="6091" data-xf-init="member-tooltip">prlk</a></dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+	<div class="block" data-widget-id="12" data-widget-key="uix_footer_newPosts" data-widget-definition="new_posts">
+		<div class="block-container">
+			
+				<h3 class="block-minorHeader">
+					<a href="../../whats-new/posts/706/index.html" rel="nofollow">Latest posts</a>
+				</h3>
+				<ul class="block-body">
+					
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="../../members/paulajedi.2722/index.html" class="avatar avatar--xxs" data-user-id="2722" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/2/2722-1480571096.jpg"  alt="PaulaJedi" class="avatar-u2722-s" /> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="../i-am-a-time-traveller-etc-etc-and-so-on.24512/index.html">I am a Time Traveller etc etc and so on</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: PaulaJedi</li>
+					<li><time  class="u-dt" dir="auto" datetime="2018-03-15T13:01:53+0000" data-time="1521118913" data-date-string="Mar 15, 2018" data-time-string="1:01 PM" title="Mar 15, 2018 at 1:01 PM">Today at 1:01 PM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="../../forums/time-travel-claims.208/index.html">Time Travel Claims</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="../../members/num7.2179/index.html" class="avatar avatar--xxs" data-user-id="2179" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/2/2179-1517798344.jpg"  alt="Num7" class="avatar-u2179-s" /> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="../john-titors-identity-revealed-to-be-morey-haber.22601/page-2.html">John Titor&#039;s identity revealed to be Morey Haber</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: Num7</li>
+					<li><time  class="u-dt" dir="auto" datetime="2018-03-14T22:50:18+0000" data-time="1521067818" data-date-string="Mar 14, 2018" data-time-string="10:50 PM" title="Mar 14, 2018 at 10:50 PM">Yesterday at 10:50 PM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="../../forums/time-travel-claims.208/index.html">Time Travel Claims</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="../../members/darth-tekno.4109/index.html" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="4109" data-xf-init="member-tooltip" style="background-color: #42a5f5; color: #bbdefb">
+			<span class="avatar-u4109-s">D</span> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="../apocalyptic-encounter-in-san-francisco-1990s-scifi-conspiracy-like-movie-bullit-w-steve-mcqueen.24511/index.html">APOCALYPTIC ENCOUNTER in SAN FRANCISCO - 1990s - SciFi Conspiracy like movie - Bullit - w/ Steve McQueen</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: Darth Tekno</li>
+					<li><time  class="u-dt" dir="auto" datetime="2018-03-14T14:42:17+0000" data-time="1521038537" data-date-string="Mar 14, 2018" data-time-string="2:42 PM" title="Mar 14, 2018 at 2:42 PM">Yesterday at 2:42 PM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="../../forums/conspiracies.218/index.html">Conspiracies</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="../../members/darth-tekno.4109/index.html" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="4109" data-xf-init="member-tooltip" style="background-color: #42a5f5; color: #bbdefb">
+			<span class="avatar-u4109-s">D</span> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="../san-franciscians-bunkering-up-in-sro-hotels-why-overpriced-housing.24510/index.html">San Franciscians - Bunkering Up in SRO Hotels - Why ? Overpriced Housing ?</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: Darth Tekno</li>
+					<li><time  class="u-dt" dir="auto" datetime="2018-03-14T14:28:43+0000" data-time="1521037723" data-date-string="Mar 14, 2018" data-time-string="2:28 PM" title="Mar 14, 2018 at 2:28 PM">Yesterday at 2:28 PM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="../../forums/conspiracies.218/index.html">Conspiracies</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="../../members/ruthless.3545/index.html" class="avatar avatar--xxs" data-user-id="3545" data-xf-init="member-tooltip">
+			<img src="../../data/avatars/s/3/3545.jpg-1481552195.png"  alt="ruthless" class="avatar-u3545-s" /> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="../discord-server.24508/index.html">discord server</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: ruthless</li>
+					<li><time  class="u-dt" dir="auto" datetime="2018-03-13T23:24:25+0000" data-time="1520983465" data-date-string="Mar 13, 2018" data-time-string="11:24 PM" title="Mar 13, 2018 at 11:24 PM">Tuesday at 11:24 PM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="../../forums/off-topic.237/index.html">Off Topic</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+	</div>
+
+<div class="block" data-widget-id="13" data-widget-key="uix_footer_onlineStatistics" data-widget-definition="online_statistics">
+	<div class="block-container">
+		<h3 class="block-minorHeader">Online statistics</h3>
+		<div class="block-body block-row">
+			<dl class="pairs pairs--justified">
+				<dt>Members online</dt>
+				<dd>0</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Guests online</dt>
+				<dd>4</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Total visitors</dt>
+				<dd>4</dd>
+			</dl>
+		</div>
+		<div class="block-footer">
+			Totals may include hidden visitors.
+		</div>
+	</div>
+</div>
+
+	<div class="block" data-widget-id="14" data-widget-key="uix_footer_sharePage" data-widget-definition="share_page">
+		<div class="block-container">
+			<h3 class="block-minorHeader">Share this page</h3>
+			<div class="block-body block-row">
+				
+					
+	
+		
+		<div class="shareButtons shareButtons--iconic" data-xf-init="share-buttons">
+			
+
+			
+
+				
+					<a class="shareButtons-button shareButtons-button--facebook" data-href="https://www.facebook.com/sharer.php?u={url}">
+						<i aria-hidden="true"></i>
+						<span>Facebook</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--twitter" data-href="https://twitter.com/intent/tweet?url={url}&amp;text={title}">
+						<i aria-hidden="true"></i>
+						<span>Twitter</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--gplus" data-href="https://plus.google.com/share?url={url}">
+						<i aria-hidden="true"></i>
+						<span>Google+</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--reddit" data-href="https://reddit.com/submit?url={url}&amp;title={title}">
+						<i aria-hidden="true"></i>
+						<span>Reddit</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--pinterest" data-href="https://pinterest.com/pin/create/bookmarklet/?url={url}&amp;description={title}">
+						<i></i>
+						<span>Pinterest</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--tumblr" data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}">
+						<i></i>
+						<span>Tumblr</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--whatsApp" data-href="https://api.whatsapp.com/send?text={title}&nbsp;{url}">
+						<i></i>
+						<span>WhatsApp</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--email" data-href="mailto:?subject={title}&amp;body={url}">
+						<i></i>
+						<span>Email</span>
+					</a>
+				
+
+				
+					<a class="shareButtons-button shareButtons-button--link is-hidden" data-clipboard="{url}">
+						<i></i>
+						<span>Link</span>
+					</a>
+					
+				
+			
+		</div>
+	
+
+				
+			</div>
+		</div>
+	</div>
+
+
+			
+		</div>
+	</div>
+</div>
+
+			
+
+			<div class="p-footer-inner">
+				<div class="pageContent">
+					<div class="p-footer-row">
+						
+							<div class="p-footer-row-main">
+								<ul class="p-footer-linkList p-footer-choosers">
+								
+									
+										<li><a id="uix_widthToggle--trigger" data-xf-init="tooltip" title="Toggle width" >
+<i class="uix_icon uix_icon--collapse"></i>
+</a></li>
+									
+									
+										<li><a href="../../misc/style.html" data-xf-click="overlay" data-xf-init="tooltip" title="Style chooser" rel="nofollow">Flux</a></li>
+									
+									
+								
+								</ul>
+							</div>
+						
+					</div>
+					<div class="p-footer-row-opposite">
+						<ul class="p-footer-linkList">
+							
+
+							
+								<li><a href="../../help/terms/index.html">Terms and rules</a></li>
+							
+
+							
+
+							
+								<li><a href="../../help/index.html">Help</a></li>
+							
+
+							
+								<li><a href="../../index.html">Home</a></li>
+							
+
+							<li><a href="#top" title="Top" data-xf-click="scroll-to"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></li>
+
+							<li><a href="../../forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa fa-rss"></i></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="p-footer-copyrightRow">
+				<div class="pageContent">
+					<div class="uix_copyrightBlock">
+						
+							<div class="p-footer-copyright">
+								
+									<a href="https://xenforo.com" class="u-concealed" dir="ltr">Forum software by XenForo&trade; <span class="copyright">&copy;2010-2017 XenForo Ltd.</span></a>
+									<span class="thBranding"> | <a href="https://www.themehouse.com/?utm_source=timetravelinstitute.com&amp;utm_medium=xf2product&amp;utm_campaign=product_branding" class="u-concealed" target="_BLANK" nofollow="nofollow">Style by ThemeHouse</a></span>
+									
+								
+							</div>
+						
+
+						
+					</div>
+					
+					
+	
+		
+	<ul class="uix_socialMedia">
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+</ul>
+
+	
+
+				</div>
+			</div>
+		</footer>
+		
+			
+		
+		
+	</div>
+</div>
+
+<div class="u-bottomFixer js-bottomFixTarget">
+	
+</div>
+
+
+	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="both">
+		<a href="#top" class="button--scroll button" data-xf-click="scroll-to"><span class="button-text"><i class="fa fa-arrow-up"></i></span></a>
+		
+			<a href="#footer" class="button--scroll button" data-xf-click="scroll-to"><span class="button-text"><i class="fa fa-arrow-down"></i></span></a>
+		
+	</div>
+
+
+
+	<script src="../../js/vendor/jquery/jquery-3.2.1.min-_v=df26b8cf.js"></script>
+	<script src="../../js/vendor/vendor-compiled-_v=df26b8cf.js"></script>
+	<script src="../../js/xf/core-compiled-_v=df26b8cf.js"></script>
+	<script src="../../js/xf/lightbox-compiled-_v=df26b8cf.js"></script>
+<script src="../../js/themehouse/tactical/ripple-_v=df26b8cf.js"></script>
+<script src="../../js/themehouse/global/20180112.min-_v=df26b8cf.js"></script>
+<script src="../../js/themehouse/tactical/index.min-_v=df26b8cf.js"></script>
+<script src="../../js/themehouse/tactical/defer.min-_v=df26b8cf.js"></script>
+<script>
+
+						jQuery.extend(XF.phrases, {
+							link_copied_to_clipboard: "Link copied to clipboard."
+						});
+					
+</script>
+<script>
+
+						jQuery.extend(XF.phrases, {
+							link_copied_to_clipboard: "Link copied to clipboard."
+						});
+					
+</script>
+
+	
+	
+
+
+
+
+<script>
+	
+    // ############################### REPLACE CLICK HANDLER ##############################################
+
+/*
+    var replaceClick = XF.ToggleClick.prototype;
+	replaceClick.load = function() {
+        var href = this.toggleUrl,
+            t = this;
+
+        if (!href || this.loading)
+        {
+            return;
+        }
+
+        this.loading = true;
+
+        XF.ajax('get', href, function(data)
+        {
+            if (data.html)
+            {
+                XF.setupHtmlInsert(data.html, function ($html, container, onComplete)
+                {
+                    var loadSelector = t.$toggleTarget.data('load-selector');
+                    if (loadSelector)
+                    {
+                        var $newHtml = $html.find(loadSelector).first();
+                        if ($newHtml.length)
+                        {
+                            $html = $newHtml;
+                        }
+                    }
+
+                    t.ajaxLoaded = true;
+                    t.$toggleTarget.replaceWith($html);
+                    XF.activate($html);
+
+                    onComplete(true);
+
+                    t.show();
+
+                    return false;
+                });
+            }
+        }).always(function()
+        {
+            t.ajaxLoaded = true;
+            t.loading = false;
+        });
+	};
+
+    XF.ReplaceClick = XF.Click.newHandler(replaceClick);
+	XF.Click.register('replace', 'XF.ReplaceClick');
+*/
+	
+/****** OFF CANVAS ***/
+$(document).ready(function() {
+	var panels = {
+		navigation: {
+			position: 1
+		},
+		account: {
+			position: 2
+		},
+		inbox: {
+			position: 3
+		},
+		alerts: {
+			position: 4
+		}
+	};
+	
+	
+	var tabsContainer = $('.sidePanel__tabs');
+	
+	var activeTab = 'navigation';
+	
+	var activeTabPosition = panels[activeTab].position;
+	
+	var generateDirections = function() {
+		$('.sidePanel__tabPanel').each(function() {
+			var tabPosition = $(this).attr('data-content');
+			var activeTabPosition = panels[activeTab].position;
+
+			if (tabPosition != activeTab) {
+				if (panels[tabPosition].position < activeTabPosition) {
+					$(this).addClass('is-left');
+				}
+
+				if (panels[tabPosition].position > activeTabPosition) {
+					$(this).addClass('is-right');
+				}   
+			}
+		});
+	};
+
+	generateDirections();
+	
+	$('.sidePanel__tab').click(function() {
+		$(tabsContainer).find('.sidePanel__tab').removeClass('sidePanel__tab--active');
+		$(this).addClass('sidePanel__tab--active');
+		
+		activeTab = $(this).attr('data-attr');
+		
+		$('.sidePanel__tabPanel').removeClass('is-active');
+		
+		$('.sidePanel__tabPanel[data-content="' + activeTab + '"]').addClass('is-active');
+		$('.sidePanel__tabPanel').removeClass('is-left').removeClass('is-right');
+		generateDirections();
+	});
+});
+
+/******** extra info post toggle ***********/
+
+$(document).ready(function() {
+	$('.thThreads__userExtra--trigger').click(function() {
+		var parent =  $(this).parents('.message-cell--user');
+	  	var triggerContainer = $(this).parent('.thThreads__userExtra--toggle');
+		var container = triggerContainer.siblings('.thThreads__message-userExtras');
+		var child = container.find('.message-userExtras');
+		var eleHeight = child.height();
+		if (parent.hasClass('userExtra--expand')) {
+			container.css({ height: eleHeight });
+			parent.toggleClass('userExtra--expand');
+			window.setTimeout(function() {
+				container.css({ height: '0' });
+				window.setTimeout(function() {
+					container.css({ height: '' });
+				}, 200);
+			}, 17);
+
+		} else {
+			parent.toggleClass('userExtra--expand');
+			container.css({ height: eleHeight });
+			window.setTimeout(function() {
+				container.css({ height: '' });
+			}, 200);
+		}
+	});
+});
+
+
+/******** Backstretch images ***********/
+
+$(document).ready(function() {
+	if ( 0 ) {
+		 $("body").backstretch([
+			 "styles/tactical/images/bg/1.jpg", "styles/tactical/images/bg/2.jpg", "styles/tactical/images/bg/3.jpg"
+	  ], {
+			duration: 4000,
+			fade: 500
+		});
+	}
+});
+</script>
+	
+	<script>
+		jQuery.extend(true, XF.config, {
+			userId: 0,
+			url: {
+				fullBase: 'https://timetravelinstitute.com/',
+				basePath: '/',
+				css: '/css.php?css=__SENTINEL__&s=7&l=1&d=1520988010',
+				keepAlive: '/login/keep-alive'
+			},
+			cookie: {
+				path: '/',
+				domain: '',
+				prefix: 'xf_'
+			},
+			csrf: '1521123867,2e16709fd7d4091779d43c69b77fda8b',
+			js: {"\/js\/xf\/lightbox-compiled.js?_v=df26b8cf":true,"\/js\/themehouse\/tactical\/ripple.js?_v=df26b8cf":true,"\/js\/themehouse\/global\/20180112.min.js?_v=df26b8cf":true,"\/js\/themehouse\/tactical\/index.min.js?_v=df26b8cf":true,"\/js\/themehouse\/tactical\/defer.min.js?_v=df26b8cf":true},
+			css: {"public:bb_code.less":true,"public:lightbox.less":true,"public:message.less":true,"public:share_controls.less":true,"public:extra.less":true},
+			time: {
+				now: 1521123867,
+				today: 1521072000,
+				todayDow: 4
+			},
+			borderSizeFeature: '2px',
+			enableRtnProtect: true,
+			enableFormSubmitSticky: true,
+			uploadMaxFilesize: 134217728,
+			visitorCounts: {
+				conversations_unread: '0',
+				alerts_unread: '0',
+				total_unread: '0',
+				title_count: true,
+				icon_indicator: true
+			},
+			jsState: {}
+		});
+
+		jQuery.extend(XF.phrases, {
+			date_x_at_time_y: "{date} at {time}",
+			day_x_at_time_y:  "{day} at {time}",
+			yesterday_at_x:   "Yesterday at {time}",
+			x_minutes_ago:    "{minutes} minutes ago",
+			one_minute_ago:   "1 minute ago",
+			a_moment_ago:     "A moment ago",
+			today_at_x:       "Today at {time}",
+			in_a_moment:      "In a moment",
+			in_a_minute:      "In a minute",
+			in_x_minutes:     "In {minutes} minutes",
+			later_today_at_x: "Later today at {time}",
+			tomorrow_at_x:    "Tomorrow at {time}",
+
+			day0: "Sunday",
+			day1: "Monday",
+			day2: "Tuesday",
+			day3: "Wednesday",
+			day4: "Thursday",
+			day5: "Friday",
+			day6: "Saturday",
+
+			dayShort0: "Sun",
+			dayShort1: "Mon",
+			dayShort2: "Tue",
+			dayShort3: "Wed",
+			dayShort4: "Thu",
+			dayShort5: "Fri",
+			dayShort6: "Sat",
+
+			month0: "January",
+			month1: "February",
+			month2: "March",
+			month3: "April",
+			month4: "May",
+			month5: "June",
+			month6: "July",
+			month7: "August",
+			month8: "September",
+			month9: "October",
+			month10: "November",
+			month11: "December",
+
+			active_user_changed_reload_page: "The active user has changed. Reload the page for the latest version.",
+			server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+			oops_we_ran_into_some_problems: "Oops! We ran into some problems.",
+			oops_we_ran_into_some_problems_more_details_console: "Oops! We ran into some problems. Please try again later. More error details may be in the browser console.",
+			file_too_large_to_upload: "The file is too large to be uploaded.",
+			files_being_uploaded_are_you_sure: "Files are still being uploaded. Are you sure you want to submit this form?",
+			close: "Close",
+
+			showing_x_of_y_items: "Showing {count} of {total} items",
+			showing_all_items: "Showing all items",
+			no_items_to_display: "No items to display"
+		});
+	</script>
+
+	<form style="display:none" hidden="hidden">
+		<input type="text" name="_xfClientLoadTime" value="" id="_xfClientLoadTime" tabindex="-1" />
+	</form>
+
+	
+
+
+
+
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "DiscussionForumPosting",
+		"@id": "https:\/\/timetravelinstitute.com\/threads\/vector-tensor-fundamentals.3657\/",
+		"headline": "Vector & Tensor Fundamentals",
+		"articleBody": "Greetings!\n\nAt the behest of Darby, a valued contributor to this forum, this thread is being started to help folks understand why vectors are a necessary mathematical construct when it comes to physics (more specifically, the dynamics of motion of a body).  This should then lead to a natural discussion of how combinations of vectors lead to the mathematical necessity for the generalized concept of a tensor, and we will further understand how a vector is a special case of a generalized tensor.  Furthermore, once we have the concepts of vectors solidly established (and answered any questions from those who may have them), I may also describe how the strict concept of a vector can be generalized in a manner that also applied to the dimensions of Mass and Time, in addition to their classical application to only spatial physics. Questions & contributions are certainly welcome.  While I am used to being a teacher on such things, I don't claim to be the ultimate authority on all things vector and tensor.\n\nIMO, I think the best place to begin is to establish the concept of a Scalar, and how it is different from a Vector, as this will certainly help us establish the basis for the vector itself (no pun intended!).  A scalar corresponds to any generalized measurement which is  not associated with any specific directional orientation in 3-D space.  One good example of a Scalar measurement would be atmospheric temperature.  If I look at the thermometer outside and see it is 65 degrees F outside, there is no depedency upon which direction the thermometer is facing.  The temperature is 65 degrees whether it is facing N, S, E, W or some other off-nominal direction in between these.  Another way of saying it would be to state that the air temperature has a  Magnitude associated with it, but no specific  Direction associated with it.  In the classical formulation of physics, we would also say that the mass of a body is also a Scalar quantity, as we can denote the total  Magnitude  of the body's mass (Kg, or Slugs, or Pounds-mass), but there is no specific  Direction associated with this measurement of mass.  (In reality, we cannot and do not directly measure a body's mass, but rather we will measure its weight within the gravitational field of the earth, and then compensate for the gravitational field by dividing that weight by \"g\").  Another good example of a scalar measure would be the number of electrons associated with a specific element.  It is just a number, with no spatial orientation necessary to understand that number (e.g. hydrogen has 1 electron).  BTW: For further reference, we can refer to a Scalar quantity as a \"tensor of Rank 0\".  It will be clear why we refer to it in this way as we progress.  Just file that away in the \"to be used later\" bag of information. ;)\n\nNow is where we can finally introduce the concept of a Vector and how it goes beyond the concept of the Scalar. A Vector is defined as a physical measurement that possesses  both  Magnitude  and   Direction. IOW, to fully characterize this type of measurement it is not enough to just know the  Magnitude. We must also understand how the  Magnitude of this measurement is oriented in space.  The most common example of a Vector quantity is the weight of an object, let's say the weight we read when we step on the scale.  The scale will give us the scalar  Magnitude (no pun intended, again!).  However, the direction associated with any weight measurement that we make here on the surface of the earth is, by definition, associated with the  Direction that gravity acts, namely towards the center of the earth.  Therefore, my weight has both a scalar  Magnitude of 170 pounds, and a vector  Direction pointed downwards towards the center of the earth.  Likewise, any measurement of force (of which weight is a specialized form of force measurement associated with a body's mass) will be a vector with both  Magnitude and  Direction.  So when my car stalls on the road (which my Vette has never done, thank goodness) and I have to push it, I will exert a specific  Magnitude of force against the car to get it rolling, and that force will be oriented in a specific  Direction, namely in a horizontal direction parallel to the surface of the earth.\n\nThis is a good enough stopping point for Part 1, to allow folks to read\/consider this material, and ask any questions or for any clarifications.  In the next part we will discuss 3-dimensional coordinate systems, and why they are important with respect to measuring and manipulating vector quantities, and how this leads to orthogonal systems of \"basis vectors\" for any given coordinate system or frame of reference.\n\nRMT",
+		"articleSection": "Unsorted Threads",
+		"author": {
+			"@type": "Person",
+			"name": "RainmanTime"
+		},
+		"datePublished": "2005-12-01",
+		"dateModified": "2006-07-14",
+		
+		"image": "https:\/\/timetravelinstitute.com\/data\/avatars\/l\/0\/584.jpg?1480571092",
+		
+		"interactionStatistic": {
+			"@type": "InteractionCounter",
+			"interactionType": "https://schema.org/ReplyAction",
+			"userInteractionCount": 27
+		}
+	}
+	</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
