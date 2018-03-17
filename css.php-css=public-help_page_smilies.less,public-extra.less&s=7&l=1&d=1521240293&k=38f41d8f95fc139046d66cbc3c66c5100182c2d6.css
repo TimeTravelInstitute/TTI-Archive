@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/********* public:help_page_smilies.less ********/
+.smilieText{display:inline-block;padding:2px 3px;min-width:16px;text-align:center;vertical-align:text-bottom;border-radius:1px;font-size:12px;color:#323c42;background:#eaedef;border:1px solid #d3dae2}.smilieText:hover{background:#fafbfd}
+
+/********* public:extra.less ********/

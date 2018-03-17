@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Fan Fiction</title>
+    <description>Fan Fiction</description>
+    <pubDate>Fri, 16 Mar 2018 23:00:33 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Mar 2018 23:00:33 +0000</lastBuildDate>
+    <generator>Fan Fiction</generator>
+    <link>https://timetravelinstitute.com/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://timetravelinstitute.com/forums/fan-fiction.213/index.rss"/>
+    <item>
+      <title>I'm an alien, what?</title>
+      <pubDate>Tue, 31 Mar 2015 18:01:04 +0000</pubDate>
+      <link>https://timetravelinstitute.com/threads/im-an-alien-what.6581/</link>
+      <guid>https://timetravelinstitute.com/threads/im-an-alien-what.6581/</guid>
+      <author>invalid@example.com (Skarpz)</author>
+      <dc:creator>Skarpz</dc:creator>
+      <content:encoded><![CDATA[<div class="bbWrapper">I'm in the middle:<br />
+ <br />
+
+	
+	
+		
+		
+	
+
+
+	<div class="lbContainer lbContainer--inline"
+		data-xf-init="lightbox"
+		data-lb-single-image="1"
+		data-lb-container-zoom="1"
+		data-lb-trigger=".js-lbImage-_xfUid-1-1521241233"
+		data-lb-id="_xfUid-1-1521241233">
+		
+			<div class="lbContainer-zoomer js-lbImage-_xfUid-1-1521241233" data-src="http://i108.photobucket.com/albums/n7/Skarpz/Happening.jpg" aria-label="Zoom"></div>
+		
+		<img src="http://i108.photobucket.com/albums/n7/Skarpz/Happening.jpg" data-url="http://i108.photobucket.com/albums/n7/Skarpz/Happening.jpg" class="bbImage" data-zoom-target="1" alt="" />
+	</div>
+
+<br />
+ <br />
+My sister is going to hate me for this.</div>]]></content:encoded>
+      <slash:comments>5</slash:comments>
+    </item>
+  </channel>
+</rss>
